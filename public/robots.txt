@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.evolzer.com/
+
+# Sitemaps
+Sitemap: https://www.evolzer.com/sitemap.xml
+Sitemap: 
