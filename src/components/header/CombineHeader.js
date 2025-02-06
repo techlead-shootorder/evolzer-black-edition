@@ -27,7 +27,7 @@ const CombinedHeader = () => {
 
   // Update mobile state only on client mount
   useEffect(() => {
-    setIsMobile(windowWidth < 768); // Adjust breakpoint as needed
+    setIsMobile(windowWidth < 1024); // Adjust breakpoint as needed
   }, [windowWidth]);
 
   return (

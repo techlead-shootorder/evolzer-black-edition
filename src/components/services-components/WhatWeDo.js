@@ -9,7 +9,7 @@ const WhatWeDo = ({ heading, service }) => {
   }, [service]);
 
   return (
-    <div className="services-area-two pt-20 pb-12 bg-gray-100">
+    <div className="services-area-two pt-20 pb-12 bg-black">
       <div className="container mx-auto px-4">
         {/* Section Heading */}
         <div className="text-center mb-12">

@@ -43,7 +43,7 @@ console.log(faq);
                   )}
                 </Disclosure.Button>
                 <Disclosure.Panel
-                  className={`px-4 pb-4 pt-2 text-gray-700 ${
+                  className={`px-4 pb-4 pt-2 text-white ${
                     openIndex === index ? "" : "hidden"
                   }`}
                 >

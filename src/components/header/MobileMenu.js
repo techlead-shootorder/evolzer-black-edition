@@ -151,7 +151,7 @@ const MobileHeader = () => {
           background-color: #e05e30; /* Darker shade on hover */
         }
 
-        @media (min-width: 768px) {
+        @media (min-width: 1024px) {
           .mobile-header {
             display: none; /* Hide mobile header on larger screens */
           }

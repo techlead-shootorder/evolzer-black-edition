@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import {
   FiCode,
   FiTool,
@@ -10,8 +11,20 @@ import {
 
 const FeaturedService = () => {
   return (
-    <div className="repair-services-area py-10 md:py-20">
-      <div className="container mx-auto">
+    <div className="relative py-10 md:py-20 flex items-center px-4 lg:px-0">
+      {/* Optimized Background Image */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/images/banner-image/faint-orange-background.jpeg"
+          alt="Background Image"
+          layout="fill"
+          objectFit="cover"
+          quality={100}
+          priority
+        />
+      </div>
+      
+      <div className="relative z-10 container mx-auto">
         <div className="section-title text-center mb-6 md:mb-10">
           <h2 className="text-2xl md:text-3xl font-bold">
             Our Featured Services that We Provide
@@ -23,7 +36,7 @@ const FeaturedService = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 justify-items-center">
-          <div className="single-repair-services bg1 p-4 rounded-lg text-left">
+          <div className="single-repair-services bg1 p-4 rounded-lg text-left" data-aos="fade-up" data-aos-delay="100">
             <div className="icon mb-2 flex items-center justify-center">
               <FiCode className="w-10 h-10" />
             </div>
@@ -36,7 +49,7 @@ const FeaturedService = () => {
             </p>
           </div>
 
-          <div className="single-repair-services bg2 p-4 rounded-lg text-left">
+          <div className="single-repair-services bg2 p-4 rounded-lg text-left" data-aos="fade-up" data-aos-delay="300">
             <div className="icon mb-2 flex items-center justify-center">
               <FiTool className="w-10 h-10" />
             </div>
@@ -49,7 +62,7 @@ const FeaturedService = () => {
             </p>
           </div>
 
-          <div className="single-repair-services bg3 p-4 rounded-lg text-left">
+          <div className="single-repair-services bg3 p-4 rounded-lg text-left" data-aos="fade-up" data-aos-delay="500">
             <div className="icon mb-2 flex items-center justify-center">
               <FiDatabase className="w-10 h-10" />
             </div>
@@ -63,7 +76,7 @@ const FeaturedService = () => {
             </p>
           </div>
 
-          <div className="single-repair-services bg4 p-4 rounded-lg text-left">
+          <div className="single-repair-services bg4 p-4 rounded-lg text-left" data-aos="fade-up" data-aos-delay="700">
             <div className="icon mb-2 flex items-center justify-center">
               <FiLayers className="w-10 h-10" />
             </div>
@@ -76,7 +89,7 @@ const FeaturedService = () => {
               innovative solutions.
             </p>
           </div>
-          <div className="single-repair-services bg5 p-4 rounded-lg text-left">
+          <div className="single-repair-services bg5 p-4 rounded-lg text-left" data-aos="fade-up" data-aos-delay="900">
             <div className="icon mb-2 flex items-center justify-center">
               <FiServer className="w-10 h-10" />
             </div>
@@ -89,7 +102,7 @@ const FeaturedService = () => {
               efficiently.
             </p>
           </div>
-          <div className="single-repair-services bg6 p-4 rounded-lg text-left">
+          <div className="single-repair-services bg6 p-4 rounded-lg text-left" data-aos="fade-up" data-aos-delay="1100">
             <div className="icon mb-2 flex items-center justify-center">
               <FiLayout className="w-10 h-10" />
             </div>

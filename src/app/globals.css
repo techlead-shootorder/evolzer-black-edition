@@ -24,8 +24,18 @@ body {
   color: #6c757d;
   background-color:black;
   -webkit-text-size-adjust: 100%;
+  -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+/* For better smooth scrolling experience */
+* {
+  scroll-snap-type: y mandatory;
+  -webkit-overflow-scrolling: touch;
+}
 /* Gilroy Font Faces */
 @font-face {
   font-family: "Gilroy";
@@ -144,6 +154,7 @@ h6 {
   font-style: normal;
   color:#fff;
 }
+
 /* globals.css or your specific header CSS file */
 .header {
   position: relative; /* Ensure the header is positioned */
@@ -411,7 +422,7 @@ label {
   text-transform: capitalize;
   font-size: 30px;
   font-weight: 600;
-  color:white;
+  /* color:white; */
 }
 .section-title p {
   /* max-width: 520px; */
@@ -3372,7 +3383,7 @@ Discover CSS
   position: relative;
   z-index: 1;
   /* background: linear-gradient(135deg, #F15A29 0%, #d7cc8c 100%); */
-  background-color: #2f2b28;
+  /* background-color: #2f2b28; */
 }
 
 .discover-image {
@@ -8179,7 +8190,7 @@ Agency About CSS
 }
 
 .agency-about-content {
-  max-width: 540px;
+  /* max-width: 540px; */
 }
 .agency-about-content .sub-title {
   display: inline-block;
@@ -8816,7 +8827,7 @@ Footer CSS
   margin-bottom: 10px;
 }
 .single-footer-widget ul.list li a {
-  color: #ffffff;
+  color: white;
 }
 .single-footer-widget ul.list li a:hover {
   color: #f15a29;
@@ -8830,7 +8841,7 @@ Footer CSS
 }
 .single-footer-widget ul.footer-contact-info li {
   position: relative;
-  color: #ffffff;
+  color: white;
   margin-bottom: 8px;
   padding-left: 25px;
 }
@@ -9138,7 +9149,7 @@ Go Top CSS
 
 .tech-stack-slider {
   width: 100%;
-  background-color: white;
+  background-color: black;
   padding: 2rem 0;
 }
 
@@ -9825,7 +9836,6 @@ video {
   font-size: 15px !important;
   color:white !important;
 }
-
 
 [data-gatsby-loading-indicator="root"],
 [data-gatsby-loading-indicator="spinner"],

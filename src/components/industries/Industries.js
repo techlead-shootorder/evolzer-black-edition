@@ -125,7 +125,7 @@ const IndustriesCater = ({ bg }) => {
   ];
 
   return (
-    <section className={` ${bg} ptb-80`}>
+    <section className={` bg-black ptb-80`}>
       {/* Apply max width to container */}
       <div className="container mx-auto px-4 team-area">
         <div className="text-center mb-8">

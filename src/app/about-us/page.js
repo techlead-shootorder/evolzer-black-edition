@@ -14,7 +14,7 @@ const Page = () => {
         banner={bannerInfo.banner}
         pagesubtitle={bannerInfo.description}
       />
-      <div className="about-area pt-20 pb-20 bg-[#f9f6f6]">
+      <div className="about-area pt-20 pb-20 bg-black">
         <div className="container mx-auto">
           <div className="flex flex-wrap justify-between items-center !mb-3  ">
             <div className="w-full lg:w-1/2 relative h-80 ">

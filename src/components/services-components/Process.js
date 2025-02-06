@@ -81,10 +81,10 @@ const Process = ({ slide }) => {
   );
 
   return (
-    <div className="tech-stack-slider bg-gray-100">
+    <div className="tech-stack-slider bg-black">
       <div className="max-w-6xl mx-auto py-10 px-4">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold text-gray-800">
+          <h2 className="text-3xl font-bold text-white">
             Our Software Development Processes{" "}
           </h2>
         </div>
@@ -92,7 +92,7 @@ const Process = ({ slide }) => {
         <Slider {...settings}>
           {slidesAvailable.map((slide, index) => (
             <div key={index} className="tech-slide px-3">
-              <div className="tech-slide-content p-6 bg-white rounded-lg shadow-lg text-center">
+              <div className="tech-slide-content p-6 bg-black rounded-lg shadow-lg text-center">
                 <h3 className="slide-number text-2xl font-semibold text-orange-500">
                   {slide.number}
                 </h3>

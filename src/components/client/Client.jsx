@@ -27,19 +27,25 @@ const Client = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 5000,
     slidesToShow: 4,
     slidesToScroll: 1,
-    autoplay: true, // Enable autoplay
-    autoplaySpeed: 3000, // Duration before moving to the next slide (in milliseconds)
-    cssEase: "linear", // Smooth transition effect
+    autoplay: true, // Enable autoplay for continuous scrolling
+    autoplaySpeed: 0, // No delay between scrolls
+    cssEase: "linear",
     prevArrow: (
-      <button className="slick-prev text-gray-600 hover:text-gray-800" aria-label="Previous">
+      <button
+        className="slick-prev text-gray-600 hover:text-gray-800"
+        aria-label="Previous"
+      >
         <FaArrowLeft />
       </button>
     ),
     nextArrow: (
-      <button className="slick-next text-gray-600 hover:text-gray-800" aria-label="Next">
+      <button
+        className="slick-next text-gray-600 hover:text-gray-800"
+        aria-label="Next"
+      >
         <FaArrowRight />
       </button>
     ),
@@ -71,25 +77,36 @@ const Client = () => {
   };
 
   return (
-    <section className=" py-20 relative">
+    <section className="py-20 relative bg-black text-white">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-bold ">Our Clients</h2>
-        <Slider {...settings}>
-          {logos.map((logo, index) => (
-            <div key={index} className="flex justify-center items-center p-4">
-              <div className="relative w-full h-32"> {/* Set height for the logo container */}
-                <Image
-                  src={logo}
-                  alt={`Client logo ${index + 1}`}
-                  className="grayscale object-contain"
-                  fill // Use fill for responsive size
-                  sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw" // Specify sizes for responsiveness
-                  loading="lazy" // Lazy load images
-                />
+        <h2 className="text-3xl font-bold">Our Clients</h2>
+
+        {/* Set height for the logo container */}
+        <div className="relative w-full overflow-hidden">
+          {/* Left Fog (Covers half of the first image) */}
+          <div className="absolute top-0 left-0 h-full w-[80px] md:w-[200px] bg-gradient-to-r from-black to-transparent opacity-100 z-10"></div>
+
+          {/* Right Fog (Covers half of the last image) */}
+          <div className="absolute top-0 right-0 h-full w-[80px] md:w-[200px] bg-gradient-to-l from-black to-transparent opacity-100 z-10"></div>
+
+          {/* Slider */}
+          <Slider {...settings}>
+            {logos.map((logo, index) => (
+              <div key={index} className="flex justify-center items-center p-4">
+                <div className="relative w-full h-32">
+                  <Image
+                    src={logo}
+                    alt={`Client logo ${index + 1}`}
+                    className="grayscale object-contain"
+                    fill // Use fill for responsive size
+                    sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw" // Specify sizes for responsiveness
+                    loading="lazy" // Lazy load images
+                  />
+                </div>
               </div>
-            </div>
-          ))}
-        </Slider>
+            ))}
+          </Slider>
+        </div>
       </div>
     </section>
   );

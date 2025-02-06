@@ -1,27 +1,43 @@
-import React, { Suspense, lazy } from "react";
+"use client";
+import React, { Suspense, lazy, useEffect } from "react";
 
 // Lazy load components
-const AboutUsContent = lazy(() => import("@/components/about-us/AboutUsContent"));
+const AboutUsContent = lazy(() =>
+  import("@/components/about-us/AboutUsContent")
+);
 const HomePage = lazy(() => import("@/components/banner/HomePage"));
-const CaseStudyPage = lazy(() => import("@/components/case-studies/CaseStudyPage"));
+const CaseStudyPage = lazy(() =>
+  import("@/components/case-studies/CaseStudyPage")
+);
 const Client = lazy(() => import("@/components/client/Client"));
 const Discover = lazy(() => import("@/components/discover/Discover"));
-const FeaturedService = lazy(() => import("@/components/FeaturedService/FeaturedService"));
+const FeaturedService = lazy(() =>
+  import("@/components/FeaturedService/FeaturedService")
+);
 const Industries = lazy(() => import("@/components/industries/Industries"));
-const NewsletterStyleTwo = lazy(() => import("@/components/newsletter/NewsLetter"));
+const NewsletterStyleTwo = lazy(() =>
+  import("@/components/newsletter/NewsLetter")
+);
 const Statistics = lazy(() => import("@/components/Stats/Statistics"));
+import "aos/dist/aos.css"; // Import AOS styles
+import AOS from "aos"; // Import AOS library
 
 // Fallback loader component
+
 const Loader = () => <div></div>;
 
 export default function Home() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 }); // You can customize the options here
+  }, []);
+
   return (
     <>
       {/* Suspense boundaries for critical sections */}
       <Suspense fallback={<Loader />}>
         <HomePage />
       </Suspense>
-      
+
       <Suspense fallback={<Loader />}>
         <Statistics />
       </Suspense>

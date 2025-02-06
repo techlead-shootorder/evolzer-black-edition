@@ -6,7 +6,7 @@ const AboutUsContent = ({heading, image,subheading}) => {
       <div className="agency-about-area md:pt-20 pb-20 container">
         <div className="container-fluid">
           <div className="flex flex-wrap items-center">
-            <div className="w-full lg:w-7/12 md:w-full mb-8 lg:mb-0 p-8"> {/* Changed col-lg-7 to lg:w-7/12 */}
+            <div className="w-full lg:w-7/12 md:w-full mb-8 lg:mb-0 p-8"  data-aos="fade-up" data-aos-delay="100"> {/* Changed col-lg-7 to lg:w-7/12 */}
               <div className="agency-about-img ">
                 <img
                   src={"/images/new-one/new-image.jpg"}
@@ -16,7 +16,7 @@ const AboutUsContent = ({heading, image,subheading}) => {
                 />
               </div>
             </div>
-            <div className="w-full lg:w-5/12 md:w-full text-center md:text-left px-2 md:px-0"> {/* Changed col-lg-5 to lg:w-5/12 */}
+            <div className="w-full lg:w-5/12 md:w-full text-center lg:text-left px-2 md:px-0" data-aos="fade-up" data-aos-delay="300"> {/* Changed col-lg-5 to lg:w-5/12 */}
               <div className="agency-about-content">
                 <h2 className="!mb-6 text-2xl font-bold">
                   <span>Comprehensive Tech Solutions, </span>Unmatched Expertise

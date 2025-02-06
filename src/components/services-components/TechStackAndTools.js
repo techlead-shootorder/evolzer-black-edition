@@ -23,10 +23,10 @@ const TechStackAndTools = ({
   ].filter((tab) => tab.content && tab.content.length > 0);
 
   return (
-    <div className="py-10 bg-white">
+    <div className="py-10 bg-black">
       <div className="container mx-auto py-10 px-4">
         <div className="w-full mb-6">
-          <h2 className="text-3xl font-bold text-gray-900 text-center">
+          <h2 className="text-3xl font-bold text-white text-center">
             Tech Stacks and Tools We Use
           </h2>
         </div>
@@ -44,7 +44,7 @@ const TechStackAndTools = ({
                   className={`!cursor-pointer !text-lg !font-bold !px-4 !py-2 transition-colors !duration-300 ${
                     activeIndex === index
                       ? "!bg-[#f15a29] !text-white"
-                      : "text-gray-700 hover:text-gray-900"
+                      : "text-white hover:text-[f15a29]"
                   }`}
                 >
                   {tab.label}

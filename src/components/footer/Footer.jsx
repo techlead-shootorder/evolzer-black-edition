@@ -7,7 +7,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="footer-area bg-[#2F2B28] text-white py-10">
+    <footer className="footer-area bg-black text-white py-10">
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center">
           <div className="w-full lg:w-1/4 p-4">

@@ -13,7 +13,7 @@ const AboutService = ({ heading, subheading, image }) => {
                   ? heading
                   : ""}
               </h3>
-              <div className="text-gray-700 leading-relaxed">
+              <div className="text-white leading-relaxed">
                 {subheading
                   ? subheading
                   : "At Evolzer, we have got you covered when it comes to web development. Whether you are a start-up or an established organization, we are here to make your ideas into reality. Our team of talented designers and developers create responsive and custom web applications, ensuring that your website not only performs well but is also user-friendly. We stay up-to-date with the latest technologies and best industry practices to ensure your website stands out in the competitive digital landscape."}
