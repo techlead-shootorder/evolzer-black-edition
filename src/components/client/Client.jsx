@@ -96,8 +96,8 @@ const Client = () => {
                 <div className="relative w-full h-32">
                   <Image
                     src={logo}
-                    alt={`Client logo ${index + 1}`}
-                    className="grayscale object-contain"
+                    alt={`Client logo ${index + 1}`} // 
+                    className=" object-contain" // grayscale
                     fill // Use fill for responsive size
                     sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw" // Specify sizes for responsiveness
                     loading="lazy" // Lazy load images

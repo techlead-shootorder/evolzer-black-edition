@@ -37,7 +37,7 @@ const TechStackAndTools = ({
             onSelect={(index) => setActiveIndex(index)}
             className="transition duration-300"
           >
-            <TabList className="flex flex-wrap justify-center space-x-4 border-b border-gray-300">
+            <TabList className="flex flex-wrap justify-center space-x-4  border-gray-300">
               {tabs.map((tab, index) => (
                 <Tab
                   key={index}
@@ -64,7 +64,7 @@ const TechStackAndTools = ({
                           <Image src={item.imageUrl} width={80} height={80} />
                         </Link>
                       </div>
-                      <div className="text-gray-800 text-center mt-2">
+                      <div className="text-white text-center mt-2">
                         {item.name}
                       </div>
                     </div>

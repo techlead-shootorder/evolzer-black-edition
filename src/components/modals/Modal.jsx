@@ -158,7 +158,7 @@ const Modal = ({ handleShow, handleClose, show }) => {
             >
               &times;
             </button>
-            <h2 className="text-xl font-semibold text-center mb-4">
+            <h2 className="text-xl font-semibold text-center mb-4 text-black">
               Get A Quote
             </h2>
             <form onSubmit={handleSubmit}>

@@ -9159,7 +9159,7 @@ Go Top CSS
 }
 
 .tech-slide-content {
-  background-color: #f8f9fa;
+  background-color: #BDBABA24;
   border-radius: 8px;
   padding: 2rem;
   text-align: center;
@@ -9170,10 +9170,7 @@ Go Top CSS
   min-height: 250px;
 }
 
-.tech-slide-content:hover {
-  background-color: #ff9a790f;
-  border-color: #ff9a790f;
-}
+
 
 /* .tech-slide-content::before {
   content: '';
@@ -9200,13 +9197,13 @@ Go Top CSS
 
 .slide-title {
   font-size: 1.5rem;
-  color: #333;
+  color: white;
   margin-bottom: 1rem;
 }
 
 .slide-description {
   font-size: 1rem;
-  color: #666;
+  color: white;
 }
 
 .slick-prev,
@@ -9356,7 +9353,7 @@ Go Top CSS
   object-fit: cover;
 }
 .react-tabs__tab-panel {
-  background: white !important;
+  background: #BDBABA24 !important;
   box-shadow: none !important;
 }
 @media screen and (max-width: 768px) {
