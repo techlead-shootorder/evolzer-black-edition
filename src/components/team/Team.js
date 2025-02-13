@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Team = () => {
   return (
-    <div className="team-area pt-20 pb-80 bg-f9f6f6">
+    <div className="team-area pt-20 pb-80 bg-black">
       <div className="container mx-auto">
         <div className="section-title text-center mb-10">
           <h2 className="text-3xl font-bold">Leadership Team</h2>
@@ -11,7 +11,7 @@ const Team = () => {
         <div className="flex flex-wrap justify-center">
           {teamMembers.map((member, index) => (
             <div key={index} className="w-full md:w-1/3 p-4">
-              <div className="single-team bg-white shadow-lg rounded-lg overflow-hidden flex flex-col items-center justify-start">
+              <div className="single-team !bg-[#BDBABA24] shadow-lg rounded-lg overflow-hidden flex flex-col items-center justify-start">
                 <div className="team-image !mt-4">
                   <Image
                     src={member.image}
@@ -24,10 +24,10 @@ const Team = () => {
                 </div>
                 <div className="team-content px-4">
                   <div className="team-info mb-2">
-                    <h3 className="text-xl font-semibold">{member.name}</h3>
-                    <span className="text-gray-600">{member.position}</span>
+                    <h3 className="text-xl font-semibold !text-white">{member.name}</h3>
+                    <span className="!text-white">{member.position}</span>
                   </div>
-                  <p className="text-gray-700 mb-4">{member.description}</p>
+                  <p className="text-white mb-4 !text-[16px]">{member.description}</p>
                   <div className="mt-3">
                     <Image
                       src={"/images/logos/linked-in.svg"}

@@ -49,7 +49,7 @@ const CaseStudyPage = ({ params }) => {
             <div className="flex flex-col xl:flex-row gap-10 ">
               <div className="flex-1">
                 <h1 className="caseStudyHero__title ">{title}</h1>
-                <p className="caseStudyHero__description">{description}</p>
+                <p className="caseStudyHero__description text-white">{description}</p>
               </div>
               <div className="caseStudyHero__gallery flex-1 flex justify-center items-center">
                 <img
@@ -92,7 +92,7 @@ const CaseStudyPage = ({ params }) => {
                 >
                   <h2> The Client</h2>
                 </div>
-                <p className="text-gray-700">{overview}</p>
+                <p className="text-white">{overview}</p>
               </div>
               {/* Details Section */}
               <div className="bg-gray-50 shadow-lg rounded-lg p-8 col-span-4 space-y-2">
@@ -160,7 +160,7 @@ const CaseStudyPage = ({ params }) => {
             <div className="flex flex-wrap">
               <div className="w-full lg:w-1/2 pr-4">
                 <div className="caseStudyCoreFeatures__title titled">
-                  <h2 className="text-3xl font-semibold text-gray-800 mb-6">
+                  <h2 className="text-3xl font-semibold  mb-6">
                     Core Features
                   </h2>
                 </div>
@@ -169,12 +169,12 @@ const CaseStudyPage = ({ params }) => {
                     {userProfileFeatures.map((feature, index) => (
                       <li key={index}>
                         <h4
-                          className="text-xl font-semibold text-gray-800"
+                          className="text-xl font-semibold"
                           style={{ fontWeight: 400 }}
                         >
                           {feature.title}
                         </h4>
-                        <p className="text-gray-700">{feature.description}</p>
+                        <p className="text-white">{feature.description}</p>
                       </li>
                     ))}
                   </ul>
@@ -204,7 +204,7 @@ const CaseStudyPage = ({ params }) => {
                 </h3>
                 <div className="caseStudySolution__content content">
                   <p>
-                    <span className="font-normal">
+                    <span className="font-normal text-white">
                       {fullStorySection.description}
                     </span>
                   </p>
@@ -227,13 +227,13 @@ const CaseStudyPage = ({ params }) => {
                     {challengesAndInnovations.map((item, index) => (
                       <li key={index}>
                         <p>
-                          <span className="font-semibold text-gray-800">
+                          <span className="font-semibold text-white">
                             Challenge:
                           </span>{" "}
                           {item.challenge}
                         </p>
                         <p>
-                          <span className="font-semibold text-gray-800">
+                          <span className="font-semibold text-white ">
                             Solution:
                           </span>{" "}
                           {item.solution}

@@ -13,7 +13,7 @@ const FeaturedService = () => {
   return (
     <div className="relative py-10 md:py-20 flex items-center px-4 lg:px-0">
       {/* Optimized Background Image */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute  z-0">
         <Image
           src="/images/banner-image/faint-orange-background.jpeg"
           alt="Background Image"
@@ -40,10 +40,10 @@ const FeaturedService = () => {
             <div className="icon mb-2 flex items-center justify-center">
               <FiCode className="w-10 h-10" />
             </div>
-            <h3 className="text-lg md:text-xl font-semibold mb-1 text-black">
+            <h3 className="text-lg md:text-xl font-semibold mb-1 text-white">
               Application Development
             </h3>
-            <p className="text-sm md:text-base">
+            <p className="text-sm md:text-base text-white">
               Cutting-edge application offerings with seamless integration,
               robust security, and support, to ensure your business stays ahead.
             </p>
@@ -53,10 +53,10 @@ const FeaturedService = () => {
             <div className="icon mb-2 flex items-center justify-center">
               <FiTool className="w-10 h-10" />
             </div>
-            <h3 className="text-lg md:text-xl font-semibold mb-1 text-black">
+            <h3 className="text-lg md:text-xl font-semibold mb-1 text-white">
               Implementation
             </h3>
-            <p className="text-sm md:text-base">
+            <p className="text-sm md:text-base text-white">
               Implementation services to effectively integrate and deploy
               advanced solutions tailored to your business needs.
             </p>
@@ -66,10 +66,10 @@ const FeaturedService = () => {
             <div className="icon mb-2 flex items-center justify-center">
               <FiDatabase className="w-10 h-10" />
             </div>
-            <h3 className="text-lg md:text-xl font-semibold mb-1 text-black">
+            <h3 className="text-lg md:text-xl font-semibold mb-1 text-white">
               Intelligent Data Services
             </h3>
-            <p className="text-sm md:text-base">
+            <p className="text-sm md:text-base text-white">
               Data Services, with a focus on precision and innovation to uncover
               valuable insights, transforming raw data into actionable
               intelligence.
@@ -80,10 +80,10 @@ const FeaturedService = () => {
             <div className="icon mb-2 flex items-center justify-center">
               <FiLayers className="w-10 h-10" />
             </div>
-            <h3 className="text-lg md:text-xl font-semibold mb-1 text-black">
+            <h3 className="text-lg md:text-xl font-semibold mb-1 text-white">
               AI/ML
             </h3>
-            <p className="text-sm md:text-base">
+            <p className="text-sm md:text-base text-white">
               Utilizing AI and ML to transform complex data sets into applicable
               insights, enabling you to make informed decisions and implement
               innovative solutions.
@@ -93,10 +93,10 @@ const FeaturedService = () => {
             <div className="icon mb-2 flex items-center justify-center">
               <FiServer className="w-10 h-10" />
             </div>
-            <h3 className="text-lg md:text-xl font-semibold mb-1 text-black">
+            <h3 className="text-lg md:text-xl font-semibold mb-1 text-white">
               Cloud Services
             </h3>
-            <p className="text-sm md:text-base">
+            <p className="text-sm md:text-base text-white" >
               Comprehensive cloud services from migration and deployment to
               ongoing management to enhance your business operations
               efficiently.
@@ -106,10 +106,10 @@ const FeaturedService = () => {
             <div className="icon mb-2 flex items-center justify-center">
               <FiLayout className="w-10 h-10" />
             </div>
-            <h3 className="text-lg md:text-xl font-semibold mb-1 text-black">
+            <h3 className="text-lg md:text-xl font-semibold mb-1 text-white">
               UX/UI
             </h3>
-            <p className="text-sm md:text-base">
+            <p className="text-sm md:text-base text-white">
               Focusing on user research, prototyping, and testing to ensure
               smooth navigation and attractive visual design to enhance user
               experience.

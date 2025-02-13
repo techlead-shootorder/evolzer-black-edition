@@ -12,9 +12,21 @@ module.exports = {
         foreground: "var(--foreground)",
       },
       container: {
-        center: true, // Optional: centers the container
+        center: true,
         screens: {
-          DEFAULT: '1170px', // Set the default container width to 1140px
+          DEFAULT: "1170px",
+        },
+      },
+      animation: {
+        "spin-slow": "spin 2.5s linear infinite",
+        "dot-flash": "dotFlash 1.5s infinite steps(1)",
+      },
+      keyframes: {
+        dotFlash: {
+          "0%": { opacity: 1 },
+          "33%": { opacity: 0.6 },
+          "66%": { opacity: 0.3 },
+          "100%": { opacity: 1 },
         },
       },
     },

@@ -11,7 +11,7 @@ const AboutUsValues = () => {
         </div>
         <div className="flex flex-wrap justify-center">
           <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
-            <div className="single-services-box bg-white shadow-lg rounded-lg p-6">
+            <div className="single-services-box !bg-[#BDBABA24] shadow-lg rounded-lg p-6">
               <div className="icon bg-c679e3 text-[24px] mb-4 p-4 rounded-full">
                 <FaCogs />
               </div>
@@ -20,7 +20,7 @@ const AboutUsValues = () => {
                   Innovation
                 </Link>
               </h3>
-              <p>
+              <p className="text-white">
                 We are on a constant lookout for new technologies to provide you
                 with solutions that will keep you ahead of the curve.
               </p>
@@ -28,7 +28,7 @@ const AboutUsValues = () => {
           </div>
 
           <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
-            <div className="single-services-box bg-white shadow-lg rounded-lg p-6">
+            <div className="single-services-box !bg-[#BDBABA24] shadow-lg rounded-lg p-6">
               <div className="icon bg-c679e3 text-[24px] mb-4 p-4 rounded-full">
                 <FaEnvelope />
               </div>
@@ -37,7 +37,7 @@ const AboutUsValues = () => {
                   Integrity
                 </Link>
               </h3>
-              <p>
+              <p className="text-white">
                 We hold up the highest standards of integrity ensuring
                 transparency and trust in our relationships with you, our
                 partners, and our employees.
@@ -46,7 +46,7 @@ const AboutUsValues = () => {
           </div>
 
           <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
-            <div className="single-services-box bg-white shadow-lg rounded-lg p-6">
+            <div className="single-services-box !bg-[#BDBABA24] shadow-lg rounded-lg p-6">
               <div className="icon bg-c679e3 text-[24px] mb-4 p-4 rounded-full">
                 <FaBell />
               </div>
@@ -55,7 +55,7 @@ const AboutUsValues = () => {
                   Customer-Centricity
                 </Link>
               </h3>
-              <p>
+              <p className="text-white">
                 Your success is our top priority. We create services that not
                 only meet your business goals but also exceed your expectations.
               </p>
@@ -63,7 +63,7 @@ const AboutUsValues = () => {
           </div>
 
           <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
-            <div className="single-services-box bg-white shadow-lg rounded-lg p-6">
+            <div className="single-services-box !bg-[#BDBABA24] shadow-lg rounded-lg p-6">
               <div className="icon bg-c679e3 text-[24px] mb-4 p-4 rounded-full">
                 <FaUsers />
               </div>
@@ -72,7 +72,7 @@ const AboutUsValues = () => {
                   Collaboration
                 </Link>
               </h3>
-              <p>
+              <p className="text-white">
                 We believe in the concept that collaboration both with our
                 clients and within the company is important to achieve
                 exceptional results.
@@ -81,7 +81,7 @@ const AboutUsValues = () => {
           </div>
 
           <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
-            <div className="single-services-box bg-white shadow-lg rounded-lg p-6">
+            <div className="single-services-box !bg-[#BDBABA24] shadow-lg rounded-lg p-6">
               <div className="icon bg-c679e3 text-[24px] mb-4 p-4 rounded-full">
                 <FaStar />
               </div>
@@ -90,7 +90,7 @@ const AboutUsValues = () => {
                   Excellence
                 </Link>
               </h3>
-              <p>
+              <p className="text-white">
                 We strive for excellence in all that we do ranging from the
                 quality of our services to the expertise of our team members.
               </p>

@@ -20,12 +20,12 @@ const Discover = () => {
                 />
               </div>
               {/* Content Section */}
-              <div className="discover-content text-left">
+              <div className="discover-content text-left md:text-center lg:text-left">
                 <h2 className="text-3xl font-bold text-white">Why choose Evolzer?</h2>
   
                 <div className="mt-6 space-y-6">
                   {/* Innovative Solutions */}
-                  <div className="flex items-center gap-4">
+                  <div className="flex items-center md:justify-center lg:justify-normal  gap-4">
                     <img
                       src="/images/why-choose-us/innovative-solutions.svg"
                       alt="Innovative Solutions"
@@ -38,7 +38,7 @@ const Discover = () => {
                     </div>
                   </div>
                   {/* Proven Results */}
-                  <div className="flex items-center gap-4">
+                  <div className="flex items-center md:justify-center lg:justify-normal  lg:text-left gap-4">
                     <img
                       src="/images/why-choose-us/proven-results.svg"
                       alt="Proven Results"
@@ -52,7 +52,7 @@ const Discover = () => {
                   </div>
   
                   {/* Expertise and Experience */}
-                  <div className="flex items-center gap-4">
+                  <div className="flex items-center md:justify-center lg:justify-normal lg:text-left gap-4">
                     <img
                       src="/images/why-choose-us/expertise-and-experience.svg"
                       alt="Expertise & Experience"

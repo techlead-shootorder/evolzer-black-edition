@@ -4,8 +4,6 @@ import Footer from "@/components/footer/Footer";
 import CombinedHeader from "@/components/header/CombineHeader";
 import Script from "next/script";
 
-
-
 export const metadata = {
   title: "Evolzer - Custom Mobile App, Web & Software Development Solutions",
   description:
@@ -16,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head />
-      <body className={` antialiased relative`}>
+      <body className="antialiased relative">
         {/* Google Tag Manager */}
         <Script
           id="gtm-script"
@@ -41,7 +39,7 @@ export default function RootLayout({ children }) {
           }}
         />
         <CombinedHeader />
-        <div className="absolute inset-0 z-0">
+        <div className="absolute inset-0 z-0 md:relative md:inset-auto">
           {children}
           <Footer />
         </div>

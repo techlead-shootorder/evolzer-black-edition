@@ -20,7 +20,7 @@ body {
   font-family: "Montserrat", sans-serif !important; /* Ensure Montserrat is applied */
   margin: 0;
   padding: 0;
-  font-size: 15px;
+  font-size: 16px;
   color: #6c757d;
   background-color:black;
   -webkit-text-size-adjust: 100%;
@@ -127,7 +127,7 @@ a:focus {
 
 p {
   color: #6c757d;
-  line-height: 1.8; 
+  line-height: 1.9; 
   font-family: "Montserrat", sans-serif !important; 
 }
 label{
@@ -1320,7 +1320,7 @@ About CSS
 }
 
 .about-inner-area {
-  margin-top: 60px;
+  margin-top: 100px;
 }
 .about-inner-area .about-text h3 {
   font-size: 18px;
@@ -2050,13 +2050,13 @@ Features Details CSS
 Team CSS
 =================================================*/
 .single-team {
-  background: #ffffff;
+  background: #BDBABA24;
   /* padding-top: 35px; */
   padding-bottom: 25px;
   margin-bottom: 30px;
   transition: 0.5s;
   text-align: center;
-  min-height: 460px;
+  min-height: 500px;
 }
 .single-team.a {
   background: #ffffff;
@@ -2130,6 +2130,7 @@ Team CSS
 .single-team .team-content p {
   margin-top: 15px;
   margin-bottom: 0;
+  color:white;
 }
 .single-team .team-info {
   /* background: linear-gradient(135deg, #f15a29 0%, #feb57a 100%); */
@@ -6579,7 +6580,7 @@ Repair Services CSS
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 410px;
+  min-height: 360px;
 }
 @media screen and (max-width: 768px) {
   .single-repair-services {
@@ -6602,8 +6603,8 @@ Repair Services CSS
   left: 0;
   width: 100%;
   height: 100%;
-  background: #ffffff;
-  z-index: -1;
+  background: #BDBABA24;
+  /* z-index: 1000; */
   /* border: 1px dashed #f15a29; */
 }
 .single-repair-services::after {
@@ -9619,7 +9620,7 @@ video {
 .caseStudyCoreFeatures {
   position: relative;
   z-index: 11;
-  background-color: #fff;
+  /* background-color: #fff; */
   color: #00283b;
 }
 
@@ -9632,7 +9633,7 @@ video {
   text-transform: capitalize;
 }
 .caseStudyPlans {
-  background-color: #2f2b28;
+  background-color:black;
   padding: 40px 0;
   position: relative;
   z-index: 11;
@@ -9725,7 +9726,7 @@ video {
   height: auto;
 }
 .caseStudyResults {
-  background-color: #2f2b28;
+  /* background-color: #2f2b28; */
   padding: 60px 0;
   position: relative;
   z-index: 11;
@@ -9843,13 +9844,13 @@ video {
   display: none !important;
 }
 .team-content p {
-  font-size: 13px !important;
+  font-size: 15px !important;
 }
 .techstack-item img:hover {
   box-shadow: none !important;
 }
 .single-team.c {
-  background: #ffffff;
+  background: #BDBABA24;
   padding-top: 35px;
   padding-bottom: 35px;
   margin-bottom: 30px;

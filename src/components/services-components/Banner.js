@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 const Banner = ({ pageTitle, banner, pagesubtitle, subservice, className }) => {
   const [formData, setFormData] = useState({
@@ -21,11 +22,13 @@ const Banner = ({ pageTitle, banner, pagesubtitle, subservice, className }) => {
   const [isAboutUsPage, setIsAboutUsPage] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  
+const pathname=usePathname();
 
   useEffect(() => {
     if (typeof window !== "undefined") {
-      const path = window.location.pathname;
-      setIsAboutUsPage(path === "/about-us");
+      // const path = window.location.pathname;
+      setIsAboutUsPage(pathname === "/about-us");
       setIsLoading(false);
       const urlParams = new URLSearchParams(window.location.search);
       setFormData((prevData) => ({
@@ -123,7 +126,7 @@ const Banner = ({ pageTitle, banner, pagesubtitle, subservice, className }) => {
           utm_campaign: formData.utm_campaign,
           utm_term: formData.utm_term,
           utm_content: formData.utm_content,
-          division:"evolzer",
+          division: "evolzer",
         }),
       });
       console.log("hello", responseData);
@@ -149,7 +152,11 @@ const Banner = ({ pageTitle, banner, pagesubtitle, subservice, className }) => {
   return (
     <>
       <Toaster />
-      <div className={`page-title-area relative ${className}`}>
+      <div
+        className={`page-title-area relative ${className} ${
+          isAboutUsPage ? "!h-80" : "h-full"
+        }`}
+      >
         <Image
           src={banner}
           alt="Banner background"
@@ -231,7 +238,7 @@ const Banner = ({ pageTitle, banner, pagesubtitle, subservice, className }) => {
             {!isLoading && !isAboutUsPage && (
               <div className="col-span-12 lg:col-span-5 mt-10 lg:mt-0 form-margin flex justify-end">
                 <div className="bg-gray-50 p-6 rounded-[10px]  w-full max-w-md lg:max-w-lg  !mx-auto lg:mx-0">
-                  <h3 className="text-center text-dark text-[28px] mb-2">
+                  <h3 className="text-center text-dark text-[28px] mb-2 text-black">
                     Get a Quote
                   </h3>
                   <p className="text-center text-dark text-[16px] mb-4">

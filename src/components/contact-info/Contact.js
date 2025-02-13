@@ -11,12 +11,13 @@ const Contact = () => {
               <div className="icon text-3xl mb-4 p-[18px] rounded-full">
                 <FaEnvelope className="text-[24px]"/>
               </div>
-              <h3 className="text-xl font-semibold">Mail Here</h3>
+              <h3 className="text-xl font-semibold text-black">Mail Here</h3>
               <p>
                 <a href="mailto:info@evolzer.com" className="text-blue-600 hover:underline">
                   info@evolzer.com
                 </a>
               </p>
+              <br/>
             </div>
           </div>
           <div className="w-full sm:w-1/3 p-4">
@@ -24,7 +25,7 @@ const Contact = () => {
               <div className="icon text-3xl mb-4  p-[18px] rounded-full">
                 <FaMapMarkerAlt className="text-[24px]"/>
               </div>
-              <h3 className="text-xl font-semibold">Visit Here</h3>
+              <h3 className="text-xl font-semibold text-black">Visit Here</h3>
               <p className="text-center">
                 1st Floor, SY, Sattiah Residency, <br />
                 Krishe Sapphire MSR Block, <br />
@@ -39,12 +40,13 @@ const Contact = () => {
               <div className="icon text-3xl mb-4  p-[18px] rounded-full">
                 <FaPhone className="transform rotate-90 text-[24px]"/>
               </div>
-              <h3 className="text-xl font-semibold">Call Here</h3>
+              <h3 className="text-xl font-semibold text-black">Call Here</h3>
               <p>
                 <a href="tel:+91-6303921512" className="text-blue-600 hover:underline">
                   +91-630-392-1512
                 </a>
               </p>
+              <br/>
             </div>
           </div>
         </div>
