@@ -52,10 +52,10 @@ const IndustryPage = ({ params }) => {
         benefits={titleDesc.benefits}
       />
       <div className="container mx-auto ptb-80">
-        <h2 className="text-left mb-4 text-2xl font-bold">
+        <h2 className="text-left mb-4 text-3xl font-bold">
           {titleDesc.faq_section_heading}
         </h2>
-        <p className="pb-3 pt-3">{titleDesc.faq_section_paragraph}</p>
+        <p className="pb-3 pt-3 text-white">{titleDesc.faq_section_paragraph}</p>
         <div className="grid grid-cols-12 gap-4 items-stretch">
           <div className="col-span-6 h-full">
             <Faqs faq={titleDesc.faqs} bg="bg-white" textLeft="text-left" />

@@ -4,34 +4,34 @@ import Banner from "@/components/industries/Banner";
 const PrivacyPolicy = () => {
   return (
     <>
-      <Banner pageTitle={"Privacy Policy"} banner="" />
+      <Banner pageTitle={"Privacy Policy"} banner="/images/banner-image/privacy.jpg" />
       <div className="container py-10 font-sans">
         <h2 className="text-3xl font-bold mb-4">Privacy Policy</h2>
-        <p className="mb-4">
+        <p className="mb-4 text-white text-white">
           This Privacy policy for ShootOrder Technology LLP (&apos;we&apos;, &apos;us&apos; or
           &apos;our&apos;) describes how and why we might access, collect, store, use,
           and/or share (&apos;process&apos;) your personal information when you use our
           services, including when you:
         </p>
         <ul className="mb-4 list-disc list-inside">
-          <li className="mb-2">
+          <li className="mb-2 text-white">
             Visit our website at{" "}
             <a className="text-blue-500 hover:underline" href="https://www.evolzer.com/">https://www.evolzer.com/</a>, or
             any website of ours that links to this Privacy policy.
           </li>
-          <li className="mb-2">
+          <li className="mb-2 text-white">
             Engage with us in other related ways, including any sales,
             marketing, or events.
           </li>
         </ul>
-        <p className="mb-4">
+        <p className="mb-4 text-white">
           Reading this Privacy policy will help you understand your privacy
           rights and choices. We are responsible for making decisions about how
           your personal information is processed.
         </p>
 
         <h3 className="text-2xl font-semibold mb-2">What Personal Information ShootOrder Technology LLP Collects?</h3>
-        <p className="mb-4">
+        <p className="mb-4 text-white">
           ShootOrder Technology LLP collects personal information including your
           name and e-mail address. This information collected will be sent to
           ShootOrder Technology LLP and may be used without restriction within
@@ -41,7 +41,7 @@ const PrivacyPolicy = () => {
         </p>
 
         <h3 className="text-2xl font-semibold mb-2">Cookies and Other Technologies</h3>
-        <p className="mb-4">
+        <p className="mb-4 text-white">
           ShootOrder Technology LLP uses &ldquo;cookies&rdquo; and other technologies to
           collect data that enables us to better understand and improve the
           usability, performance, and effectiveness of our website. Cookies are
@@ -52,7 +52,7 @@ const PrivacyPolicy = () => {
           cookies may affect your ability to use some features of ShootOrder
           Technology LLP website.
         </p>
-        <p className="mb-4">
+        <p className="mb-4 text-white">
           ShootOrder Technology LLP gathers general information and uses
           Universal Analytics to analyze visits to our website and your
           computer&apos;s interaction with ShootOrder Technology LLP. ShootOrder
@@ -63,7 +63,7 @@ const PrivacyPolicy = () => {
         </p>
 
         <h3 className="text-2xl font-semibold mb-2">How ShootOrder Technology LLP Uses Information</h3>
-        <p className="mb-4">
+        <p className="mb-4 text-white">
           ShootOrder Technology LLP will not sell your personal information to
           third parties. If you provide us with your email address, ShootOrder
           Technology LLP may, from time to time, share with you information
@@ -72,7 +72,7 @@ const PrivacyPolicy = () => {
           receive from us, you may do so by emailing your request via the
           contact us page.
         </p>
-        <p className="mb-4">
+        <p className="mb-4 text-white">
           Please note that opting out of receiving a promotional email will not
           affect the receipt of service-related, transactional, or legal
           communication via email in accordance with the Terms. ShootOrder
@@ -80,27 +80,27 @@ const PrivacyPolicy = () => {
           parties unless disclosure is necessary to comply with the relevant law
           of the land and/or below:
         </p>
-        <ul className="mb-4 list-disc list-inside">
+        <ul className="mb-4 list-disc list-inside text-white">
           <li className="mb-2">Provide services to you.</li>
           <li className="mb-2">Research, develop, administer, protect, and improve our services.</li>
           <li className="mb-2">Check your creditworthiness with a Credit Reporting Agency.</li>
           <li className="mb-2">Comply with a legislative instrument such as a request for information by a regulatory body or a Court Order.</li>
         </ul>
-        <p className="mb-4">
+        <p className="mb-4 text-white">
           Excluding the requirements above, ShootOrder Technology LLP will not
           share any information you give to us with any other entity without your
           express permission.
         </p>
 
         <h3 className="text-2xl font-semibold mb-2">Customer Information Access and Retention</h3>
-        <p className="mb-4">
+        <p className="mb-4 text-white">
           Customers may request access to personal information collected by
           ShootOrder Technology LLP regarding themselves and the use of their
           account. We work to ensure these details are always correct and
           up-to-date and will amend any inaccuracies or make changes to details
           upon request.
         </p>
-        <p className="mb-4">
+        <p className="mb-4 text-white">
           By law, we must retain some customer information for a minimum of five
           years. However, we do not retain clients&apos; personal information longer
           than is necessary for the purposes of compliance with the law and
@@ -108,7 +108,7 @@ const PrivacyPolicy = () => {
           another organization, the new owners will also be required to comply
           with this privacy policy.
         </p>
-        <p className="mb-4">
+        <p className="mb-4 text-white">
           We keep customer information in a controlled facility, secured against
           unauthorized access. Relevant proof/identification is always required
           before information is released to any person, including the customer.
@@ -120,13 +120,13 @@ const PrivacyPolicy = () => {
         </p>
 
         <h3 className="text-2xl font-semibold mb-2">Personal Identifiable Information</h3>
-        <p className="mb-4">
+        <p className="mb-4 text-white">
           ShootOrder Technology LLP has committed to handling personally
           identifiable information per all currently applicable legislation.
         </p>
 
         <h3 className="text-2xl font-semibold mb-2">Acceptance of Terms</h3>
-        <p className="mb-4">
+        <p className="mb-4 text-white">
           If ShootOrder Technology LLP updates or changes this Privacy Policy,
           the changes will be made on this page. Your continued use of the
           website following the posting of changes will mean you accept those
