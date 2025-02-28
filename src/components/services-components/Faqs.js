@@ -22,7 +22,7 @@ const Faqs = ({ faq, bg, textLeft }) => {
           <h3
             className={`${
               textLeft ? textLeft : "text-center"
-            } text-2xl font-bold mb-6`}
+            } text-3xl font-bold mb-6`}
           >
             Frequently Asked Questions
           </h3>
