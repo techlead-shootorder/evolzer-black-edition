@@ -16,7 +16,7 @@ const logos = [
   "/images/client-image/f1.jpg",
   "/images/client-image/g1.jpg",
   "/images/client-image/h1.jpg",
-  "/images/client-image/i1.jpg",
+  "/images/client-image/i1.webp",
   "/images/client-image/j1.jpg",
 ];
 
@@ -92,12 +92,12 @@ const Client = () => {
           {/* Slider */}
           <Slider {...settings}>
             {logos.map((logo, index) => (
-              <div key={index} className="flex justify-center items-center p-4">
-                <div className="relative w-full h-32">
+              <div key={index} className="flex justify-center items-center p-4 mt-4">
+                <div className="relative w-full h-[90px]">
                   <Image
                     src={logo}
                     alt={`Client logo ${index + 1}`} // 
-                    className=" object-contain" // grayscale
+                    className=" object-cover bg-white p-1" // grayscale
                     fill // Use fill for responsive size
                     sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, 20vw" // Specify sizes for responsiveness
                     loading="lazy" // Lazy load images

@@ -357,6 +357,13 @@ export const titleDescription = {
     metaTitle: "Case Studies Elahe - Evolzer",
     metaDescription: "",
   },
+  "thankyou": {
+    banner: "/images/case-study/gsb-banner.jpg",
+    title: "Thank You",
+    description: "",
+    metaTitle: "Thank You - Evolzer",
+    metaDescription: "",
+  },
 };
 
 // Industry Page title and images

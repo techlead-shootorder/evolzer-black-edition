@@ -105,7 +105,9 @@ const PrivacyPolicy = () => {
           intellectual property rights in those ideas.
         </p>
 
-        <h3 className="text-xl font-semibold mt-6 mb-2">B. Your access to the Site(s) and General Restrictions on Use</h3>
+        <h3 className="text-xl font-semibold mt-6 mb-2">
+          B. Your access to the Site(s) and General Restrictions on Use
+        </h3>
         <p className="mb-4">
           1. You are granted a personal, revocable, limited, non-exclusive,
           non-transferable license to access and use the Site(s) conditioned on
@@ -117,7 +119,9 @@ const PrivacyPolicy = () => {
           sublicense access to the Site(s) to any third party.
         </p>
 
-        <h3 className="text-xl font-semibold mt-6 mb-2">C. Third-Party Offerings</h3>
+        <h3 className="text-xl font-semibold mt-6 mb-2">
+          C. Third-Party Offerings
+        </h3>
         <p className="mb-4">
           You may be able to access websites, content, or services provided by
           third parties through links that are made available on the Site(s).
@@ -125,7 +129,9 @@ const PrivacyPolicy = () => {
           any such third-party offerings.
         </p>
 
-        <h3 className="text-xl font-semibold mt-6 mb-2">D. Term and Termination</h3>
+        <h3 className="text-xl font-semibold mt-6 mb-2">
+          D. Term and Termination
+        </h3>
         <p className="mb-4">
           These Terms will become effective and binding when you use the
           Site(s), when you voluntarily provide any information about yourself
@@ -140,18 +146,20 @@ const PrivacyPolicy = () => {
           survive the termination of these Terms.
         </p>
 
-        <h3 className="text-xl font-semibold mt-6 mb-2">E. Disclaimers, Limitations and Exclusions of Liability</h3>
+        <h3 className="text-xl font-semibold mt-6 mb-2">
+          E. Disclaimers, Limitations and Exclusions of Liability
+        </h3>
         <p className="mb-4">
           1. No Warranties. THE SITE(S) AND ALL CONTENT RELATED TO THE FOREGOING
           ARE PROVIDED &lsquo;AS IS.&rsquo; TO THE FULLEST EXTENT PERMISSIBLE
           UNDER APPLICABLE LAW, SHOOTORDER TECHNOLOGY LLP, ITS AFFILIATES, AND
           EACH OF THEIR RESPECTIVE OFFICERS, DIRECTORS, EMPLOYEES, AGENTS,
-          SUCCESSORS, ASSIGNS, AND LICENSORS (COLLECTIVELY, THE &ldquo;SHOOTORDER
-          TECHNOLOGY LLP PARTIES&rdquo;) EXPRESSLY DISCLAIM ALL WARRANTIES,
-          EXPRESS OR IMPLIED, WITH RESPECT TO THE SITE(S) AND ANY CONTENT OR
-          SERVICES RELATED THERETO, INCLUDING, WITHOUT LIMITATION, ANY IMPLIED
-          WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
-          NON-INFRINGEMENT, OR TITLE.
+          SUCCESSORS, ASSIGNS, AND LICENSORS (COLLECTIVELY, THE
+          &ldquo;SHOOTORDER TECHNOLOGY LLP PARTIES&rdquo;) EXPRESSLY DISCLAIM
+          ALL WARRANTIES, EXPRESS OR IMPLIED, WITH RESPECT TO THE SITE(S) AND
+          ANY CONTENT OR SERVICES RELATED THERETO, INCLUDING, WITHOUT
+          LIMITATION, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+          PARTICULAR PURPOSE, NON-INFRINGEMENT, OR TITLE.
         </p>
         <p className="mb-4">
           2. No Liability. THE SHOOTORDER TECHNOLOGY LLP PARTIES DO NOT ASSUME,
@@ -163,7 +171,7 @@ const PrivacyPolicy = () => {
           SITE(S), INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS,
           GOODWILL, USE, DATA, OR OTHER INTANGIBLE LOSSES, EVEN IF THE
           SHOOTORDER TECHNOLOGY LLP PARTIES HAVE BEEN ADVISED OF THE POSSIBILITY
-          OF SUCH DAMAGES. 
+          OF SUCH DAMAGES.
         </p>
 
         <h3 className="text-xl font-semibold mt-6 mb-2">F. Indemnification</h3>
