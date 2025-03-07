@@ -99,7 +99,7 @@ const webDevelopment = [
   {
     name: "Next JS",
     imageUrl: "/images/tech-stack/nexjs.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "framework",
   },
   // Databases
@@ -112,61 +112,61 @@ const webDevelopment = [
   {
     name: "MySQL",
     imageUrl: "/images/tech-stack/mysql.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "database",
   },
   {
     name: "PostgreSQL",
     imageUrl: "/images/tech-stack/postgresql.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "database",
   },
   {
     name: "SQlite",
     imageUrl: "/images/tech-stack/sql-lite.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "database",
   },
   {
     name: "Microsoft Azure SQL Database",
     imageUrl: "/images/tech-stack/sql-azure.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "database",
   },
   {
     name: "Oracle Database",
     imageUrl: "/images/tech-stack/oracle.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "database",
   },
   {
     name: "IBM",
     imageUrl: "/images/tech-stack/ibm-db.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "database",
   },
   {
     name: "Reddis",
     imageUrl: "/images/tech-stack/redis.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "database",
   },
   {
     name: "Amazon DynamoDB",
     imageUrl: "/images/tech-stack/amazon-dynamo.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "database",
   },
   {
     name: "Amazon RDS",
     imageUrl: "/images/tech-stack/amazon-rds.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "database",
   },
   {
     name: "SAP Hana",
     imageUrl: "/images/tech-stack/sap-hana.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "database",
   },
 
@@ -174,7 +174,7 @@ const webDevelopment = [
   {
     name: "WordPress",
     imageUrl: "/images/tech-stack/wordpress.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "platform",
   },
   {
@@ -186,7 +186,7 @@ const webDevelopment = [
   {
     name: "BigCommerce",
     imageUrl: "/images/tech-stack/bigcommerce.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "platform",
   },
   {
@@ -198,13 +198,13 @@ const webDevelopment = [
   {
     name: "Wix",
     imageUrl: "/images/tech-stack/wix.webp",
-    navigate: "/web-development/squarespace",
+    navigate: "/under-maintenance",
     type: "platform",
   },
   {
     name: "Maganto",
     imageUrl: "/images/tech-stack/Magento.webp",
-    navigate: "/web-development/squarespace",
+    navigate: "/under-maintenance",
     type: "platform",
   },
 ];
@@ -236,25 +236,25 @@ const servicesData = {
     {
       name: "LAMP",
       imageUrl: "/images/tech-stack/lampstark.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "stack",
     },
     {
       name: "MEAN",
       imageUrl: "/images/tech-stack/mean.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "stack",
     },
     {
       name: "MERN",
       imageUrl: "/images/tech-stack/mern.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "stack",
     },
     {
       name: "MEVN",
       imageUrl: "/images/tech-stack/mevn.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "stack",
     },
     // Tools
@@ -273,37 +273,37 @@ const servicesData = {
     {
       name: "JavaScript",
       imageUrl: "/images/tech-stack/javascript.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "tool",
     },
     {
       name: "TypeScript",
       imageUrl: "/images/tech-stack/typescript.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "tool",
     },
     {
       name: "Perl",
       imageUrl: "/images/tech-stack/perl.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "tool",
     },
     {
       name: "Bash",
       imageUrl: "/images/tech-stack/Bash.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "tool",
     },
     {
       name: "Go",
       imageUrl: "/images/tech-stack/go.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "tool",
     },
     {
       name: "Rust",
       imageUrl: "/images/tech-stack/Rust.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "tool",
     },
     // Frameworks
@@ -328,74 +328,74 @@ const servicesData = {
     {
       name: "Next JS",
       imageUrl: "/images/tech-stack/nexjs.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "framework",
     },
     // Databases
     {
       name: "MongoDB",
       imageUrl: "/images/tech-stack/mangodb.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "database",
     },
     {
       name: "MySQL",
       imageUrl: "/images/tech-stack/mysql.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "database",
     },
     {
       name: "PostgreSQL",
       imageUrl: "/images/tech-stack/postgresql.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "database",
     },
     {
       name: "SQlite",
       imageUrl: "/images/tech-stack/sql-lite.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "database",
     },
     {
       name: "Microsoft Azure SQL Database",
       imageUrl: "/images/tech-stack/sql-azure.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "database",
     },
     {
       name: "Oracle Database",
       imageUrl: "/images/tech-stack/oracle.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "database",
     },
     {
       name: "IBM",
       imageUrl: "/images/tech-stack/ibm-db.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "database",
     },
     {
       name: "Reddis",
       imageUrl: "/images/tech-stack/redis.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "database",
     },
     {
       name: "Amazon DynamoDB",
       imageUrl: "/images/tech-stack/amazon-dynamo.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "database",
     },
     {
       name: "Amazon RDS",
       imageUrl: "/images/tech-stack/amazon-rds.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "database",
     },
     {
       name: "SAP Hana",
       imageUrl: "/images/tech-stack/sap-hana.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "database",
     },
 
@@ -403,7 +403,7 @@ const servicesData = {
     {
       name: "WordPress",
       imageUrl: "/images/tech-stack/wordpress.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "platform",
     },
     {
