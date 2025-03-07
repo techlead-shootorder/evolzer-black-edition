@@ -1,19 +1,18 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { FaTools } from "react-icons/fa"; // Tools icon representing maintenance
+import { FaRegClock } from "react-icons/fa"; // Clock icon for "Coming Soon"
 
-const UnderMaintenance = () => {
+const ComingSoon = () => {
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-purple-500 to-indigo-600 px-4">
+    <div className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-r from-blue-500 to-teal-600 px-4">
       <div className="bg-white bg-opacity-10 backdrop-blur-md rounded-lg p-10 text-center shadow-2xl">
-        <FaTools className="w-20 h-20 text-white mx-auto mb-4 animate-spin-slow" />
+        <FaRegClock className="w-20 h-20 text-white mx-auto mb-4 animate-pulse" />
         <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4">
-          Under Maintenance
+          Coming Soon!
         </h1>
-        <p className="text-lg sm:text-xl text-white mb-8">
-          Our website is currently undergoing scheduled maintenance. Please
-          check back soon.
+        <p className="text-lg sm:text-xl text-white mb-6">
+          We are working on something amazing. Stay tuned for updates!
         </p>
         <Link href="/">
           <p className="inline-block px-8 py-3 bg-orange-500 text-white font-semibold rounded-full hover:bg-orange-600 transition">
@@ -22,15 +21,18 @@ const UnderMaintenance = () => {
         </Link>
       </div>
       <style jsx>{`
-        .animate-spin-slow {
-          animation: spin 3s linear infinite;
+        .animate-pulse {
+          animation: pulse 2s infinite;
         }
-        @keyframes spin {
-          from {
-            transform: rotate(0deg);
+        @keyframes pulse {
+          0% {
+            opacity: 0.6;
           }
-          to {
-            transform: rotate(360deg);
+          50% {
+            opacity: 1;
+          }
+          100% {
+            opacity: 0.6;
           }
         }
       `}</style>
@@ -38,4 +40,4 @@ const UnderMaintenance = () => {
   );
 };
 
-export default UnderMaintenance;
+export default ComingSoon;
