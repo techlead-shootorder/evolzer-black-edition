@@ -12,7 +12,7 @@ const Slider = dynamic(() => import("react-slick"), { ssr: false });
 const Process = () => {
   const pathname = usePathname(); // Get current page URL path
 
-  // Get process data based on pathname, fallback to "shopify" if not found
+  // Get process data based on pathname, fallback to "default" if not found
   const processData = dataMapping[pathname] ?? dataMapping["/default"];
   const { slides, heading } = processData;
 
@@ -20,11 +20,12 @@ const Process = () => {
   const settings = useMemo(
     () => ({
       dots: true,
-      infinite: false, // Prevent looping
-      autoplay: false,
-      speed: 500,
+      infinite: false, // Enable infinite scrolling
+      autoplay: true, // Enable automatic scrolling
+      autoplaySpeed: 4000, // Delay before auto-scrolling
+      speed: 500, // Transition speed
       slidesToShow: 3,
-      slidesToScroll: 1,
+      slidesToScroll: 1, // Always scroll one slide at a time
       arrows: true,
       prevArrow: (
         <button className="slick-prev text-gray-700 hover:text-black">
