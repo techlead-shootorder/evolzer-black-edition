@@ -1,5 +1,125 @@
 export const dataMapping = {
-    "shopify": {
+  "/web-development": {
+      slides: [
+        {
+          title: "Consultation",
+          description: "We try to assess your requirements, objectives, and expectations.",
+          number: 1,
+        },
+        {
+          title: "Planning and Strategy ",
+          description: "We then create a tailored roadmap to achieve those objectives.",
+          number: 2,
+        },
+        {
+          title: "Design",
+          description: "We map out the target UI and finalize the mockups",
+          number: 3,
+        },
+        {
+          title: "Development",
+          description: "We then begin building the Shopify store you envisioned. ",
+          number: 4,
+        },
+        {
+          title: "Testing and Quality Assurance ",
+          description: "We test your store to ensure it is free of bugs and performs optimally across all devices. ",
+          number: 5,
+        },
+        {
+          title: "Launch and Deployment ",
+          description: "When you are satisfied with the final product, your Shopify store is deployed and goes live. ",
+          number: 6,
+        },
+        {
+          title: "Post-Launch Support ",
+          description: "We provide ongoing support to keep your store updated and performing optimally. ",
+          number: 7,
+        },
+      ],
+      heading: "Our Web Development Process",
+    },
+    "/mobile-application": {
+      slides: [
+        {
+          title: "Consultation",
+          description: "We try to assess your requirements, objectives, and expectations.",
+          number: 1,
+        },
+        {
+          title: "Planning and Strategy ",
+          description: "We then create a tailored roadmap to achieve those objectives.",
+          number: 2,
+        },
+        {
+          title: "Design",
+          description: "We map out the target UI and finalize the mockups",
+          number: 3,
+        },
+        {
+          title: "Development",
+          description: "We then begin building the Shopify store you envisioned. ",
+          number: 4,
+        },
+        {
+          title: "Testing and Quality Assurance ",
+          description: "We test your store to ensure it is free of bugs and performs optimally across all devices. ",
+          number: 5,
+        },
+        {
+          title: "Launch and Deployment ",
+          description: "When you are satisfied with the final product, your Shopify store is deployed and goes live. ",
+          number: 6,
+        },
+        {
+          title: "Post-Launch Support ",
+          description: "We provide ongoing support to keep your store updated and performing optimally. ",
+          number: 7,
+        },
+      ],
+      heading: "Our Mobile Development Process",
+    },
+    "/software-development": {
+      slides: [
+        {
+          title: "Consultation",
+          description: "We try to assess your requirements, objectives, and expectations.",
+          number: 1,
+        },
+        {
+          title: "Planning and Strategy ",
+          description: "We then create a tailored roadmap to achieve those objectives.",
+          number: 2,
+        },
+        {
+          title: "Design",
+          description: "We map out the target UI and finalize the mockups",
+          number: 3,
+        },
+        {
+          title: "Development",
+          description: "We then begin building the Shopify store you envisioned. ",
+          number: 4,
+        },
+        {
+          title: "Testing and Quality Assurance ",
+          description: "We test your store to ensure it is free of bugs and performs optimally across all devices. ",
+          number: 5,
+        },
+        {
+          title: "Launch and Deployment ",
+          description: "When you are satisfied with the final product, your Shopify store is deployed and goes live. ",
+          number: 6,
+        },
+        {
+          title: "Post-Launch Support ",
+          description: "We provide ongoing support to keep your store updated and performing optimally. ",
+          number: 7,
+        },
+      ],
+      heading: "Our Software Development Process",
+    },
+    "/web-development/shopify": {
       slides: [
         {
           title: "Consultation",
@@ -39,7 +159,7 @@ export const dataMapping = {
       ],
       heading: "Our Shopify Development Process",
     },
-    "/web-development/woocommerce/": {
+    "/web-development/woocommerce": {
       slides: [
         {
           title: "Consultation",
@@ -79,7 +199,7 @@ export const dataMapping = {
       ],
       heading: "Our WooCommerce Development Process",
     },
-    "/mobile-application/ios/": {
+    "/mobile-application/ios": {
       slides: [
         {
           title: "Consultation",
@@ -119,7 +239,7 @@ export const dataMapping = {
       ],
       heading: "Our ios Development Process",
     },
-    "/mobile-application/android-app-development/": {
+    "/mobile-application/android-app-development": {
       slides: [
         {
           title: "Consultation",
@@ -159,7 +279,7 @@ export const dataMapping = {
       ],
       heading: "Our android Development Process",
     },
-    "/mobile-application/ionic-app-development/": {
+    "/mobile-application/ionic-app-development": {
       slides: [
         {
           title: "Consultation",
@@ -199,7 +319,7 @@ export const dataMapping = {
       ],
       heading: "Our ionic web Development Process",
     },
-    "/react-native/": {
+    "/react-native": {
       slides: [
         {
           title: "Consultation",
@@ -239,7 +359,7 @@ export const dataMapping = {
       ],
       heading: "Our react native Development Process",
     },
-    "/cordova/": {
+    "/cordova": {
       slides: [
         {
           title: "Consultation",
@@ -279,7 +399,7 @@ export const dataMapping = {
       ],
       heading: "Our cordova Development Process",
     },
-    "/flutter/": {
+    "/flutter": {
       slides: [
         {
           title: "Consultation",
@@ -319,7 +439,7 @@ export const dataMapping = {
       ],
       heading: "Our flutter Development Process",
     },
-    "/web-development/react/": {
+    "/web-development/react": {
       slides: [
         {
           title: "Consultation",
@@ -359,7 +479,7 @@ export const dataMapping = {
       ],
       heading: "Our flutter Development Process",
     },
-    "/web-development/angular/": {
+    "/web-development/angular": {
       slides: [
         {
           title: "Consultation",
@@ -399,7 +519,7 @@ export const dataMapping = {
       ],
       heading: "Our flutter Development Process",
     },
-    "/sale-force/sales-cloud/": {
+    "/sale-force/sales-cloud": {
       slides: [
         {
           title: "Consultation and Planning",
@@ -429,7 +549,7 @@ export const dataMapping = {
       ],
       heading: "Our Sale Cloud Development Process",
     },
-    "/sale-force/service-cloud/": {
+    "/sale-force/service-cloud": {
       slides: [
         {
           title: "Consultation and Planning",
@@ -459,7 +579,7 @@ export const dataMapping = {
       ],
       heading: "Our Sale Cloud Development Process",
     },
-    "/sale-force/marketing-cloud/": {
+    "/sale-force/marketing-cloud": {
       slides: [
         {
           title: "Consultation and Planning",
@@ -489,7 +609,7 @@ export const dataMapping = {
       ],
       heading: "Our Marketing Cloud Development Process",
     },
-    "/web-development/python-services/": {
+    "/web-development/python-services": {
       slides: [
         {
           title: "Consultation",
@@ -534,7 +654,7 @@ export const dataMapping = {
       ],
       heading: "Our Python Cloud Development Process",
     },
-    "/web-development/ruby-on-rails-services/": {
+    "/web-development/ruby-on-rails-services": {
       slides: [
         {
           title: "Consultation",
@@ -579,7 +699,7 @@ export const dataMapping = {
       ],
       heading: "Our Process",
     },
-    "/web-development/php/": {
+    "/web-development/php": {
         slides: [
           {
             title: "Consultation",
@@ -624,7 +744,7 @@ export const dataMapping = {
         ],
         heading: "Our Process",
       },
-      "/sale-force/tableau/": {
+      "/sale-force/tableau": {
       slides: [
         {
           title: "Consultation and Planning",
@@ -654,7 +774,7 @@ export const dataMapping = {
       ],
       heading: "Our Tableau Development Process",
     },
-    "/sale-force/commerce-cloud/": {
+    "/sale-force/commerce-cloud": {
       slides: [
         {
           title: "Consultation and Planning",
@@ -684,7 +804,7 @@ export const dataMapping = {
       ],
       heading: "Our Tableau Development Process",
     },
-    "/sale-force/mulesoft-services/": {
+    "/sale-force/mulesoft-services": {
       slides: [
         {
           title: "Consultation and Planning",
@@ -714,7 +834,7 @@ export const dataMapping = {
       ],
       heading: "Our Mulesoft Development Process",
     },
-    "/sale-force/sales-force-cpq/": {
+    "/sale-force/sales-force-cpq": {
       slides: [
         {
           title: "Consultation and Planning",
@@ -744,7 +864,7 @@ export const dataMapping = {
       ],
       heading: "Our Mulesoft Development Process",
     },
-    "/sale-force/community-cloud-service/": {
+    "/sale-force/community-cloud-service": {
       slides: [
         {
           title: "Consultation and Planning",
@@ -774,7 +894,7 @@ export const dataMapping = {
       ],
       heading: "Our Mulesoft Development Process",
     },
-    "/hubspot/hubspot-managed-services/": {
+    "/hubspot/hubspot-managed-services": {
       slides: [
         {
           title: "Consultation and Planning",
@@ -804,7 +924,7 @@ export const dataMapping = {
       ],
       heading: "Our Tableau Development Process",
     },
-    "/hubspot/hubspot-cms-implementation/": {
+    "/hubspot/hubspot-cms-implementation": {
       slides: [
         {
           title: "Consultation and Planning",
@@ -835,7 +955,7 @@ export const dataMapping = {
       heading: "Our Tableau Development Process",
     },
     
-    "/hubspot/hubspot-services-implementation/": {
+    "/hubspot/hubspot-services-implementation": {
       slides: [
         {
           title: "Consultation and Planning",
@@ -866,7 +986,7 @@ export const dataMapping = {
       heading: "Our Tableau Development Process",
     },
     
-    "/hubspot/hubspot-sales-implementation/": {
+    "/hubspot/hubspot-sales-implementation": {
       slides: [
         {
           title: "Consultation and Planning",
@@ -896,7 +1016,7 @@ export const dataMapping = {
       ],
       heading: "Our Tableau Development Process",
     },
-    "/hubspot/hubspot-marketing-implementation/": {
+    "/hubspot/hubspot-marketing-implementation": {
       slides: [
         {
           title: "Consultation and Planning",
@@ -926,7 +1046,7 @@ export const dataMapping = {
       ],
       heading: "Our Tableau Development Process",
     },
-    "/software-development/microsoft-azure-services/": {
+    "/software-development/microsoft-azure-services": {
       slides: [
         {
           title: "Consultation and Planning",
@@ -961,7 +1081,7 @@ export const dataMapping = {
       ],
       heading: "Our  Process",
     },
-    "/software-development/java-web-application-services/": {
+    "/software-development/java-web-application-services": {
       slides: [
         {
           title: "Consultation and Planning",
@@ -1006,7 +1126,7 @@ export const dataMapping = {
       ],
       heading: "Our Process",
     },
-    "/software-development/spring-boot-services/": {
+    "/software-development/spring-boot-services": {
       slides: [
         {
           title: "Consultation and Planning",
@@ -1046,7 +1166,7 @@ export const dataMapping = {
       ],
       heading: "Our Process",
     },
-    "/software-development/service-oriented-architecture-soa/": {
+    "/software-development/service-oriented-architecture-soa": {
       slides: [
         {
           title: "Consultation and Planning",
@@ -1086,7 +1206,7 @@ export const dataMapping = {
       ],
       heading: "Our  Process",
     },
-    "/software-development/data-structure-and-algo/": {
+    "/software-development/data-structure-and-algo": {
       slides: [
         {
           title: "Consultation and Planning",
@@ -1126,7 +1246,7 @@ export const dataMapping = {
       ],
       heading: "Our  Process",
     },
-    "/software-development/oracle-dbms-management/": {
+    "/software-development/oracle-dbms-management": {
       slides: [
         {
           title: "Consultation",

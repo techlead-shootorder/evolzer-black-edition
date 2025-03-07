@@ -22,8 +22,8 @@ const Banner = ({ pageTitle, banner, pagesubtitle, subservice, className }) => {
   const [isAboutUsPage, setIsAboutUsPage] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
-  
-const pathname=usePathname();
+
+  const pathname = usePathname();
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -135,7 +135,7 @@ const pathname=usePathname();
       const data = await response.json();
       toast.success("Form submitted successfully!");
       setTimeout(() => {
-        // window.location.href = "/thankyou";
+        window.location.href = "/thankyou";
       }, 500);
       if (data.data && data.data.id) {
         document.cookie = `leadId=${data.data.id}; path=/; max-age=3600`;

@@ -2,7 +2,7 @@
 
 import CaseStudyPage from "@/components/case-studies/CaseStudyPage";
 import AboutIndustry from "@/components/industries/AboutIndustry";
-import Banner from "@/components/industries/Banner";
+import Banner from '@/components/industries/Banner';
 import ServicesIndustry from "@/components/industries/ServicesIndustry";
 import Faqs from "@/components/services-components/Faqs";
 import { titleDescriptionIndustry } from "@/utils/TitleDesBanner";
