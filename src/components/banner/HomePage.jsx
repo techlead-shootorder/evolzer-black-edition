@@ -31,7 +31,7 @@ const HomePage = () => {
 
             <Link
               href="/contact"
-              className="inline-block text-center lg:text-left mt-6 bg-[#f15a29] text-white py-4 px-8 rounded hover:bg-blue-600 transition"
+              className="inline-block text-center lg:text-left mt-6 bg-[#f15a29] text-white py-4 px-8 rounded hover:bg-[#f15a29] transition"
             >
               Get Started
             </Link>
@@ -72,7 +72,6 @@ const HomePage = () => {
                     </p>
                   </div>
                 </div>
-
                 <div className="w-full sm:w-1/2 md:w-1/3 p-2" data-aos="fade-up" data-aos-delay="500">
                   <div className="single-banner-boxes bg-white/10 backdrop-blur-sm p-6 rounded-lg">
                     <div className="icon">

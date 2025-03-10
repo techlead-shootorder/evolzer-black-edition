@@ -97,7 +97,7 @@ const Footer = () => {
             {/* Social Media Links */}
             <div className="flex justify-start space-x-4 mt-6">
               <a
-                href="https://www.facebook.com"
+                href="https://www.facebook.com/profile.php?id=61561672886657"
                 target="_blank"
                 rel="noreferrer"
                 className="p-3 bg-blue-600 rounded-full hover:bg-[#4267b2] transition"
@@ -121,7 +121,7 @@ const Footer = () => {
                 <FaInstagram className="text-white w-5 h-5" />
               </a>
               <a
-                href="https://www.linkedin.com"
+                href="https://www.linkedin.com/company/evolzer-technology/"
                 target="_blank"
                 rel="noreferrer"
                 className="p-3 bg-blue-700 rounded-full hover:bg-[#0077b5] transition"
