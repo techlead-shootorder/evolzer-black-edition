@@ -2,33 +2,26 @@
 import { Disclosure } from "@headlessui/react";
 import { MdExpandMore, MdExpandLess } from "react-icons/md";
 import { useState, useEffect } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 
 const Faqs = ({ faq, bg, textLeft }) => {
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const faqIdFromUrl = searchParams.get("faq"); // Get FAQ id from URL
-
+  const pathname = usePathname(); // Get the current path
   const [openIndex, setOpenIndex] = useState(null);
 
   useEffect(() => {
-    if (faqIdFromUrl) {
-      const faqIndex = faq.findIndex((item) => item.id === faqIdFromUrl);
-      if (faqIndex !== -1) {
-        setOpenIndex(faqIndex);
-        // Scroll to the section when FAQ is selected
-        document.getElementById("faq")?.scrollIntoView({ behavior: "smooth" });
-      }
+    if (window.location.hash === "#faq") {
+      document.getElementById("faq")?.scrollIntoView({ behavior: "smooth" });
     }
-  }, [faqIdFromUrl, faq]);
+  }, []);
 
-  const handleToggle = (index, id) => {
+  const handleToggle = (index) => {
     if (openIndex === index) {
       setOpenIndex(null);
-      router.push("#faq"); // Keep the #faq in URL but remove specific FAQ
+      router.push(pathname, { scroll: false }); // Remove #faq from URL
     } else {
       setOpenIndex(index);
-      router.push(`#faq`, { scroll: false }); // Update URL with FAQ id
+      router.push(`${pathname}#faq`, { scroll: false }); // Keep #faq in URL
     }
   };
 
@@ -41,7 +34,7 @@ const Faqs = ({ faq, bg, textLeft }) => {
     <div id="faq" className="bg-black py-10">
       <div className="max-w-6xl mx-auto">
         {faq.length > 0 && (
-          <h3 className={`${textLeft ? textLeft : "text-center"} text-3xl font-bold mb-6`}>
+          <h3 className={`${textLeft ? textLeft : "text-center"} text-3xl font-bold mb-6 text-white`}>
             Frequently Asked Questions
           </h3>
         )}
@@ -49,12 +42,11 @@ const Faqs = ({ faq, bg, textLeft }) => {
           {/* Left Column */}
           <div>
             {leftFaqs.map((item, index) => (
-              <Disclosure key={item.id} as="div" className="mb-4 rounded shadow">
+              <Disclosure key={index} as="div" className="mb-4 rounded shadow">
                 {() => (
                   <>
                     <Disclosure.Button
-                      id={item.id} // Unique ID for each FAQ
-                      onClick={() => handleToggle(index, item.id)}
+                      onClick={() => handleToggle(index)}
                       className="flex justify-between items-center w-full px-6 py-3 text-left font-medium text-white bg-[#BDBABA24] hover:bg-opacity-80 transition-colors rounded !leading-[25px]"
                     >
                       <span className="normal-case font-[600]">{item.question}</span>
@@ -74,12 +66,11 @@ const Faqs = ({ faq, bg, textLeft }) => {
             {rightFaqs.map((item, index) => {
               const globalIndex = index + half;
               return (
-                <Disclosure key={item.id} as="div" className="mb-4 rounded shadow">
+                <Disclosure key={globalIndex} as="div" className="mb-4 rounded shadow">
                   {() => (
                     <>
                       <Disclosure.Button
-                        id={item.id}
-                        onClick={() => handleToggle(globalIndex, item.id)}
+                        onClick={() => handleToggle(globalIndex)}
                         className="flex justify-between items-center w-full px-6 py-3 text-left font-medium text-white bg-[#BDBABA24] hover:bg-opacity-80 transition-colors rounded !leading-[25px]"
                       >
                         <span className="normal-case font-[600]">{item.question}</span>
