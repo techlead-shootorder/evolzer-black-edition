@@ -11,7 +11,14 @@ const Faqs = ({ faq, bg, textLeft }) => {
 
   useEffect(() => {
     if (window.location.hash === "#faq") {
-      document.getElementById("faq")?.scrollIntoView({ behavior: "smooth" });
+      setTimeout(() => {
+        const faqSection = document.getElementById("faq");
+        if (faqSection) {
+          const offset = 100; // Adjust this value based on your navbar height
+          const elementPosition = faqSection.getBoundingClientRect().top + window.scrollY;
+          window.scrollTo({ top: elementPosition - offset, behavior: "smooth" });
+        }
+      }, 100); // Delay ensures page fully loads before scrolling
     }
   }, []);
 
@@ -31,7 +38,7 @@ const Faqs = ({ faq, bg, textLeft }) => {
   const rightFaqs = faq.slice(half);
 
   return (
-    <div id="faq" className="bg-black py-10">
+    <div id="faq" className="bg-black py-10 scroll-mt-28">
       <div className="max-w-6xl mx-auto">
         {faq.length > 0 && (
           <h3 className={`${textLeft ? textLeft : "text-center"} text-3xl font-bold mb-6 text-white`}>
