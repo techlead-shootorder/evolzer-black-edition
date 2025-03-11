@@ -12092,3 +12092,7 @@ span.ruby-c-content {
   transition: color 0.3s ease;
 }
 
+
+.leading-relaxed >p{
+  color:white !important; 
+}

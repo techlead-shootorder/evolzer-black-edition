@@ -105,7 +105,7 @@ const Footer = () => {
                 <FaFacebookF className="text-white w-5 h-5" />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://x.com/EvolzerTech"
                 target="_blank"
                 rel="noreferrer"
                 className="p-3 bg-gray-800 rounded-full hover:bg-gray-600 transition"

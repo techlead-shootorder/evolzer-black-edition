@@ -7,25 +7,25 @@ const webDevelopment = [
   {
     name: "LAMP",
     imageUrl: "/images/tech-stack/lampstark.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "stack",
   },
   {
     name: "MEAN",
     imageUrl: "/images/tech-stack/mean.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "stack",
   },
   {
     name: "MERN",
     imageUrl: "/images/tech-stack/mern.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "stack",
   },
   {
     name: "MEVN",
     imageUrl: "/images/tech-stack/mevn.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "stack",
   },
   // Tools
@@ -44,37 +44,37 @@ const webDevelopment = [
   {
     name: "JavaScript",
     imageUrl: "/images/tech-stack/javascript.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "tool",
   },
   {
     name: "TypeScript",
     imageUrl: "/images/tech-stack/typescript.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "tool",
   },
   {
     name: "Perl",
     imageUrl: "/images/tech-stack/perl.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "tool",
   },
   {
     name: "Bash",
     imageUrl: "/images/tech-stack/Bash.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "tool",
   },
   {
     name: "Go",
     imageUrl: "/images/tech-stack/go.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "tool",
   },
   {
     name: "Rust",
     imageUrl: "/images/tech-stack/Rust.webp",
-    navigate: "/web-development/",
+    navigate: "/under-maintenance",
     type: "tool",
   },
   // Frameworks
@@ -415,25 +415,25 @@ const servicesData = {
     {
       name: "BigCommerce",
       imageUrl: "/images/tech-stack/bigcommerce.webp",
-      navigate: "/web-development/",
+      navigate: "/under-maintenance",
       type: "platform",
     },
     {
       name: "Squarespace",
       imageUrl: "/images/tech-stack/squarespace.webp",
-      navigate: "/web-development/squarespace",
+      navigate: "/under-maintenance",
       type: "platform",
     },
     {
       name: "Wix",
       imageUrl: "/images/tech-stack/wix.webp",
-      navigate: "/web-development/squarespace",
+      navigate: "/under-maintenance",
       type: "platform",
     },
     {
       name: "Maganto",
       imageUrl: "/images/tech-stack/Magento.webp",
-      navigate: "/web-development/squarespace",
+      navigate: "/under-maintenance",
       type: "platform",
     },
     // Add more items as needed
@@ -484,25 +484,25 @@ const servicesData = {
     {
       name: "Java Web Application",
       imageUrl: "/images/tech-stack/java.png",
-      navigate: "/software-development/java-web-application-services",
+      navigate: "/under-maintenance",
       type: "framework",
     },
     {
       name: "Microsoft Azure",
       imageUrl: "/images/tech-stack/microsoft-azure.png",
-      navigate: "/software-development/microsoft-azure-services",
+      navigate: "/under-maintenance",
       type: "tool",
     },
     {
       name: "Springboot",
       imageUrl:"/images/tech-stack/springboot.png",
-      navigate: "/software-development/spring-boot-services",
+      navigate: "/under-maintenance",
       type: "framework",
     },
     {
       name: "Ionic App Development",
       imageUrl:"/images/tech-stack/ionic.png",
-      navigate: "/mobile-application/ionic-app-development",
+      navigate: "/under-maintenance",
       type: "framework",
     },
     {

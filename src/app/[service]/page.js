@@ -114,7 +114,6 @@ export default function ServicePage({ params }) {
   if (!matchedService) {
     notFound(); // Use Next.js built-in notFound function
   }
-
   // Memoize category-specific data retrieval
   const stacks = useMemo(
     () => getCategoryDataByType(service, "stack"),
