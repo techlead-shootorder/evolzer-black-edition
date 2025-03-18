@@ -31,7 +31,6 @@ const CaseStudyPage = ({ params }) => {
     heroSection: { title, description, mainImage },
     idea,
     solution,
-    
     fullStorySection,
     overviewSection: { overview, location, industries, services, technologies },
     coreFeaturesSection: { features: userProfileFeatures, image },
@@ -143,7 +142,6 @@ const CaseStudyPage = ({ params }) => {
                   <p>{idea}</p>
                 </div>
               </div>
-
               <div className="caseStudyPlans__row flex flex-wrap">
                 <div className="w-full lg:w-1/3 caseStudyPlans__title font-bold">
                   Solution

@@ -1452,6 +1452,93 @@ export const servicesData = {
         "We can help you to automate repetitive mundane tasks to reduce manual errors. This allows your team to focus on complex issues to improve the efficiency of the process and to ensure timely responses.",
     },
   ],
-
+"custom-app-development": [
+    {
+      imageUrl:
+        "/images/tools/custom-app-development/consultation-and-strategy.jpg",
+      card_title: " Consultation and Strategy",
+      card_subtitle:
+        "We analyze market trends, study user behavior, and perform competitor analysis to craft a comprehensive strategy for your app. Our detailed roadmap defines objectives, key features, and development phases to ensure a well-structured approach.",
+    },
+    {
+      imageUrl:
+        "/images/tools/custom-app-development/native-app-development.jpg",
+      card_title: "Native App Development",
+      card_subtitle:
+        "We specialize in developing high-performance native applications tailored for Android and iOS. By leveraging platform-specific technologies, we ensure smooth functionality and optimal performance.",
+    },
+    {
+      imageUrl:
+        "/images/tools/custom-app-development/cross-platform-and-backend-development.jpg",
+      card_title: "Cross-Platform & Backend Development",
+      card_subtitle:
+        "We create high-performance cross-platform apps with a robust backend to ensure seamless functionality, scalability, and security.",
+    },
+    {
+      imageUrl:
+        "/images/tools/custom-app-development/api-integration.jpg",
+      card_title: "API Integration",
+      card_subtitle:
+        "We enhance app functionality by integrating third-party APIs, enabling seamless connections with external services, payment gateways, and other essential tools.",
+    },
+    {
+      imageUrl:
+        "/images/tools/custom-app-development/testing-and-deployment.jpg",
+      card_title: " Testing & Deployment",
+      card_subtitle:
+        "We rigorously test for stability, fix bugs, and refine based on user feedback. After that, we handle beta testing, app store submissions, and ensure compliance for a smooth launch.",
+    },
+    {
+      imageUrl:
+        "/images/tools/custom-app-development/maintenance-and-security.jpg",
+      card_title: "Maintenance & Security",
+      card_subtitle:
+        "We provide ongoing updates, bug fixes, and performance optimizations while ensuring top-tier security and compliance with industry standards.",
+    },
+  ],
+  "ui-and-ux": [
+    {
+      imageUrl:
+        "/images/tools/ui-and-ux/user-research-and-analysis.jpg",
+      card_title: "User Research & Analysis",
+      card_subtitle:
+        "Understanding user behavior for data-driven design.",
+    },
+    {
+      imageUrl:
+        "/images/tools/ui-and-ux/wireframing-and-prototyping.jpg",
+      card_title: "Wireframing & Prototyping",
+      card_subtitle:
+        "Creating engaging blueprints for better usability.",
+    },
+    {
+      imageUrl:
+        "/images/tools/ui-and-ux/ui-ux-page.jpg",
+      card_title: "UI/UX Design",
+      card_subtitle:
+        "Designing visually stunning and user-friendly interface.",
+    },
+    {
+      imageUrl:
+        "/images/tools/ui-and-ux/mobile-and-web-app-design.jpg",
+      card_title: "Mobile & Web App Design ",
+      card_subtitle:
+        "Engaging designs customised for cross-platform experiences.",
+    },
+    {
+      imageUrl:
+        "/images/tools/ui-and-ux/usability-testing.jpg",
+      card_title: " Usability Testing ",
+      card_subtitle:
+        "Ensuring seamless user interaction and functionality.",
+    },
+    {
+      imageUrl:
+        "/images/tools/ui-and-ux/design-system-and-branding.jpg",
+      card_title: "Design System & Branding",
+      card_subtitle:
+        "Offering consistent, scalable, and brand-aligned visuals.",
+    },
+  ],
   // Add similar arrays for other services (e.g., app-development, software-development, etc.)
 };

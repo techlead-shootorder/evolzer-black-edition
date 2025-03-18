@@ -31,7 +31,7 @@ const HomePage = () => {
 
             <Link
               href="/contact"
-              className="inline-block text-center lg:text-left mt-6 bg-[#f15a29] text-white py-4 px-8 rounded hover:bg-[#f15a29] transition"
+              className="inline-block text-center lg:text-left mt-6 bg-[#f15a29] text-white py-4 px-8 rounded hover:bg-[#ffffff] transition"
             >
               Get Started
             </Link>

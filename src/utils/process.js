@@ -1321,6 +1321,85 @@ export const dataMapping = {
       ],
       heading: "Our Software Development Process",
     },
-    
+    "/custom-app-development": {
+      slides: [
+        {
+          title: "Consultation",
+          description: "Understanding your goals, requirements, and expectations.",
+          number: 1,
+        },
+        {
+          title: "Planning and Strategy ",
+          description: "Crafting a roadmap to achieve your objectives.",
+          number: 2,
+        },
+        {
+          title: "Design ",
+          description: "Creating a user-friendly and visually appealing interface.",
+          number: 3,
+        },
+        {
+          title: "Development ",
+          description: " Building your app with the latest technologies.",
+          number: 4,
+        },
+        {
+          title: "Testing and Quality Assurance ",
+          description: "Ensuring smooth performance and bug-free functionality.  ",
+          number: 5,
+        },
+        {
+          title: "Launch & Deployment ",
+          description: "Making your app live on the app stores.",
+          number: 6,
+        },
+        {
+          title: "Post-Launch Support",
+          description: "Keeping your app updated and optimized.",
+          number: 7,
+        },
+      ],
+      heading: "Our 7-Step App Development Process",
+    },
+    "/ui-and-ux": {
+      slides: [
+        {
+          title: "Discovery & Research",
+          description: "Understanding user needs, business goals, and industry trends.",
+          number: 1,
+        },
+        {
+          title: "Wireframing & Prototyping",
+          description: "Creating interactive blueprints for seamless user flow.",
+          number: 2,
+        },
+        {
+          title: "UI Design & Branding ",
+          description: " Crafting visually engaging and brand-aligned interfaces.",
+          number: 3,
+        },
+        {
+          title: "User Testing & Feedback ",
+          description: "Validating design effectiveness through real-user insights.",
+          number: 4,
+        },
+        {
+          title: "Testing and Quality Assurance ",
+          description: "Ensuring smooth performance and bug-free functionality.  ",
+          number: 5,
+        },
+        {
+          title: "Implementation Support",
+          description: "Collaborating with developers for a smooth transition.",
+          number: 6,
+        },
+        {
+          title: "Optimization & Iteration ",
+          description: "Refining designs based on user behavior and feedback.",
+          number: 7,
+        },
+      ],
+      heading: "Our 6-Steps UIUX Process",
+    },
   };
   

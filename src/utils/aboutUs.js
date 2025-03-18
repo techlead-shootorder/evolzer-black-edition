@@ -515,11 +515,12 @@ export const aboutUs = {
         <ul>
           <li className={tailwindStyles.listItem}>
             Evolzer provides enterprise AI solutions using AI approaches that
-            align strategically with your organization&apos;s objectives to achieve
-            innovation and operational efficiency. First, we meet up for a
-            detailed consultation to recognize the areas where AI can help the
-            most and then we develop custom AI models, no matter if it&apos;s related
-            to predictive analytics, automation, or intelligent decision-making.
+            align strategically with your organization&apos;s objectives to
+            achieve innovation and operational efficiency. First, we meet up for
+            a detailed consultation to recognize the areas where AI can help the
+            most and then we develop custom AI models, no matter if it&apos;s
+            related to predictive analytics, automation, or intelligent
+            decision-making.
             <br />
             We are responsible for:
           </li>
@@ -608,7 +609,7 @@ export const aboutUs = {
                 fontSize: "20px",
               }}
             />{" "}
-             Utilizing contemporary tools and cloud platforms
+            Utilizing contemporary tools and cloud platforms
           </li>
           <li className="flex items-center gap-2">
             <BiSolidSend
@@ -617,7 +618,7 @@ export const aboutUs = {
                 fontSize: "20px",
               }}
             />{" "}
-           Enhanced agility
+            Enhanced agility
           </li>
           <li className="flex items-center gap-2">
             <BiSolidSend
@@ -626,7 +627,7 @@ export const aboutUs = {
                 fontSize: "20px",
               }}
             />{" "}
-           Achieving cost efficiency
+            Achieving cost efficiency
           </li>
           <li className="flex items-center gap-2">
             <BiSolidSend
@@ -635,7 +636,7 @@ export const aboutUs = {
                 fontSize: "20px",
               }}
             />{" "}
-             Preparing for scalability
+            Preparing for scalability
           </li>
           <li className="flex items-center gap-2">
             <BiSolidSend
@@ -650,5 +651,115 @@ export const aboutUs = {
       </>
     ),
     image: "/images/tools/data-modernization/section.jpg",
+  },
+  "custom-app-development": {
+    heading: "Professional Custom App Development Help Your Business",
+    subheading: (
+      <>
+        <ul
+          style={{
+            marginTop: "15px",
+            lineHeight: "1.8",
+            listStyleType: "none",
+          }}
+        >
+          <li className="flex items-center gap-2">
+            <BiSolidSend
+              style={{
+                color: "#f15a29",
+                fontSize: "16px",
+              }}
+            />{" "}
+            Scalability : Future-proof your business with apps designed to grow
+            with you.
+          </li>
+          <li className="flex items-center gap-2">
+            <BiSolidSend
+              style={{
+                color: "#f15a29",
+                fontSize: "20px",
+              }}
+            />{" "}
+            <b>Efficiency </b> : Streamline operations and improve productivity.
+          </li>
+
+          <li className="flex items-center gap-2">
+            <BiSolidSend
+              style={{
+                color: "#f15a29",
+                fontSize: "20px",
+              }}
+            />{" "}
+            Enhanced User Experience: Engage customers with seamless and
+            intuitive designs.
+          </li>
+          <li className="flex items-center gap-2">
+            <BiSolidSend
+              style={{
+                color: "#f15a29",
+                fontSize: "20px",
+              }}
+            />{" "}
+            Competitive Edge: Stand out with a custom solution tailored to your
+            unique needs.
+          </li>
+        </ul>
+      </>
+    ),
+    image: "/images/tools/data-modernization/section.jpg",
+  },
+  "ui-and-ux": {
+    heading: "Transforming Digital Experiences with expert UI/UX Services",
+    subheading: (
+      <>
+        <ul
+          style={{
+            marginTop: "15px",
+            lineHeight: "1.8",
+            listStyleType: "none",
+          }}
+        >
+          <li className="flex items-center gap-2">
+            <BiSolidSend
+              style={{
+                color: "#f15a29",
+                fontSize: "16px",
+              }}
+            />{" "}
+            User-Centric Design : Seamlessly designed interfaces that enhance usability and engagement.
+          </li>
+          <li className="flex items-center gap-2">
+            <BiSolidSend
+              style={{
+                color: "#f15a29",
+                fontSize: "20px",
+              }}
+            />{" "}
+            Adaptive & Scalable Solutions  : Custom UI/UX strategies that evolve with your business needs and technology trends.
+          </li>
+
+          <li className="flex items-center gap-2">
+            <BiSolidSend
+              style={{
+                color: "#f15a29",
+                fontSize: "20px",
+              }}
+            />{" "}
+           Performance-Driven Experiences : Optimized designs ensuring seamless navigation, faster load times, and higher conversions.
+          </li>
+          {/* <li className="flex items-center gap-2">
+            <BiSolidSend
+              style={{
+                color: "#f15a29",
+                fontSize: "20px",
+              }}
+            />{" "}
+            Competitive Edge: Stand out with a custom solution tailored to your
+            unique needs.
+          </li> */}
+        </ul>
+      </>
+    ),
+    image: "/images/tools/ui-and-ux/Transforming-digital.jpg",
   },
 };

@@ -22,6 +22,9 @@ const TechStackAndTools = ({
     { label: "Platform", content: platform },
   ].filter((tab) => tab.content && tab.content.length > 0);
 
+  // If there is no data, return null (hide the entire section)
+  if (tabs.length === 0) return null;
+
   return (
     <div className="py-10 bg-black">
       <div className="container mx-auto py-10 px-4">
@@ -53,7 +56,10 @@ const TechStackAndTools = ({
               <TabPanel key={index}>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mx-auto py-6">
                   {tab.content.map((item) => (
-                    <div key={item.name} className="flex flex-col items-center justify-center">
+                    <div
+                      key={item.name}
+                      className="flex flex-col items-center justify-center"
+                    >
                       <div className="bg-white w-[160px] h-[100px] flex items-center justify-center rounded-lg shadow-lg p-4 transition-transform duration-300 hover:scale-105">
                         <Link href={item.navigate}>
                           <Image

@@ -364,6 +364,20 @@ export const titleDescription = {
     metaTitle: "Thank You - Evolzer",
     metaDescription: "",
   },
+  "ui-and-ux": {
+    banner: "/images/banner-image/ui-ux-page.jpg",
+    title: "Crafting Seamless Digital Experiences",
+    description: "We design intuitive, engaging, and visually compelling user experiences that elevate your brand and enhance user interactions. Let’s create something exceptional together.",
+    metaTitle: "UI Features",
+    metaDescription: "UI Features Evolzer",
+  },
+  "custom-app-development": {
+    banner: "/images/banner-image/ui-ux-banner.jpg",
+    title: "Custom App Development Tailored to Your Business Needs",
+    description: "Unlock innovation and scale your business with high-performing, secure, and scalable custom applications. Let’s build something extraordinary.",
+    metaTitle: "Custom App Development Tailored to Your Business Needs",
+    metaDescription: "unlock innovation and scale your business with high performing, secure, and scalable custom applications and frameworks ",
+  },
 };
 
 // Industry Page title and images

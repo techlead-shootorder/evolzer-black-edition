@@ -48,6 +48,8 @@ const services = [
   "generative-ai-services",
   "enterprise-ai-services",
   "data-modernization-services",
+  "ui-and-ux",
+  "custom-app-development",
 ];
 
 // This function generates static paths for the service pages
