@@ -365,14 +365,14 @@ export const titleDescription = {
     metaDescription: "",
   },
   "ui-and-ux": {
-    banner: "/images/banner-image/ui-ux-page.jpg",
+    banner: "/images/banner-image/ui-ux-page-banner.jpg",
     title: "Crafting Seamless Digital Experiences",
     description: "We design intuitive, engaging, and visually compelling user experiences that elevate your brand and enhance user interactions. Let’s create something exceptional together.",
     metaTitle: "UI Features",
     metaDescription: "UI Features Evolzer",
   },
   "custom-app-development": {
-    banner: "/images/banner-image/ui-ux-banner.jpg",
+    banner: "/images/banner-image/custom-app.jpg",
     title: "Custom App Development Tailored to Your Business Needs",
     description: "Unlock innovation and scale your business with high-performing, secure, and scalable custom applications. Let’s build something extraordinary.",
     metaTitle: "Custom App Development Tailored to Your Business Needs",
