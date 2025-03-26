@@ -39,95 +39,109 @@ export const titleDescription = {
     banner: "/images/banner-image/web-application.png",
     description:
       "Crafting user-friendly, responsive and high-performing websites that shine online, using the latest technologies and best practices to help you stand out in the crowd.",
-    metaTitle: "Advanced Web Development Services - Evolzer",
+    metaTitle: "Web Development Company for Custom Websites - Evolzer",
     metaDescription:
-      "At Evolzer, we've got you covered when it comes to web development. Whether you are a start-up or an established organization, we are here to make your ideas into reality. Schedule a call!",
+      "Evolzer provides expert web development services, crafting custom websites & web apps that drive business success. Let’s create your perfect website today!",
   },
   "mobile-application": {
     title: "Mobile Application Development",
     banner: "/images/banner-image/mobile-application.jpg",
     description:
       "Developing mobile applications for iOS, Android, and cross-platform platforms, using the latest technologies and best practices to help you reach your target audience and increase your app's reach.",
-    metaTitle: "Custom Mobile App Development Services - Evolzer",
+    metaTitle: "Custom App Development Company for Scalable Apps - Evolzer",
     metaDescription:
-      "At Evolzer, we are dedicated to turning your app visions into reality. With a passion for excellence and innovation, we offer you comprehensive mobile development services tailored to your unique needs. Schedule a call!",
+      "Evolzer creates high-quality iOS & Android mobile apps. Enhance user engagement with our cutting-edge mobile solutions. Let’s build your app today!",
   },
   "software-development": {
     title: "Software Development",
     banner: "/images/banner-image/software-development.png",
     description:
       "Designing, developing, and maintaining software applications, from small to large, using the latest technologies and best practices to help you create innovative and efficient solutions for your business needs.",
-    metaTitle: "End-to-End Software Development Services - Evolzer",
+    metaTitle:
+      "Software Development Company for your Business Growth - Evolzer",
     metaDescription:
-      "At Evolzer, we specialize in creating cutting-edge mobile and web applications that are customized to meet your business needs.  Schedule a call!",
+      "Evolzer develops scalable & efficient software solutions tailored to your business needs. Optimize operations with our software expertise. Contact us now!",
   },
   "about-us": {
     banner: "/images/banner-image/about-banner.png",
     title: "About Us",
     description: "",
     metaTitle:
-      "About Evolzer - Expert Web Development, Mobile Application Development, and Software Development",
-    metaDescription: "",
+      "About Evolzer - Custom App, Web, AI & Software Development Experts",
+    metaDescription:
+      "Discover Evolzer, a trusted name in custom app development, web development & AI solutions. Learn about our expertise & how we drive digital transformation!",
   },
   hubspot: {
     banner: "/images/banner-image/hubspot.png",
     title: "HubSpot Services",
     description:
       "Boosting customer relationships, streamlining sales and delivering exceptional service with HubSpot's all-in-one platform. Tailoring unique solutions to fit your unique needs.",
-    metaTitle: "HubSpot Services - Evolzer",
+    metaTitle: "HubSpot CRM Development & Automation Solutions  - Evolzer",
     metaDescription:
-      "At Evolzer, we specialize in helping you turn your business into a successful HubSpot customer. Schedule a call!",
+      "Evolzer offers HubSpot CRM development & automation solutions to boost your marketing & sales efforts. Improve efficiency with our expert services. Contact us!",
   },
   "sap-application": {
     banner: "/images/banner-image/sap.png",
     title: "SAP Application Services",
     description:
       "Helping you simplify processes, boost efficiency and drive innovation that are unique to your organization's needs. Stay ahead in the rapidly changing business with our expert SAP services.",
-    metaTitle: "SAP Application Services - Evolzer",
+    metaTitle: "SAP Application Development & Enterprise Solutions  - Evolzer",
     metaDescription:
-      "At Evolzer, we specialize in helping you turn your business into a successful SAP customer. Schedule a call!",
+      "Evolzer specializes in SAP application development & integration to enhance business automation. Maximize efficiency with our SAP experts. Get started today!",
   },
   "data-annotation": {
     banner: "/images/tools/data-annotation/banner.jpg",
     title: "Data Annotation Services",
     description:
       "Unlocking the full potential of AI and ML for informed decision-making, enhanced automation, and smarter business outcomes.",
-    metaTitle: "Data Annotation Services - Evolzer",
+    metaTitle: "Data Annotation Services for AI & Machine Learning  - Evolzer",
     metaDescription:
-      "At Evolzer, we specialize in helping you unlock the full potential of AI and ML for your business. Schedule a call!",
+      "Evolzer provides high-quality data annotation for AI & ML models, ensuring accurate training data. Elevate your AI capabilities with us. Get a quote today!",
   },
   "data-engineering": {
     banner: "/images/tools/data-engineering/banner.jpg",
     title: "Data Engineering Services",
     description:
       "Building robust data pipelines for seamless integration, scalability, and unparalleled analytics capabilities.",
+    metaTitle: "Data Engineering Services for Scalable Data Systems  - Evolzer",
+    metaDescription:
+      "Evolzer builds scalable data engineering solutions for seamless data processing & analytics. Unlock data-driven insights. Start modernizing your data today!",
   },
   "data-management": {
     banner: "/images/tools/data-management/banner.jpg",
     title: "Data Management Services",
     description:
       "Secure, scalable, and streamlined data management for a data-driven future",
+    metaTitle: "Data Management Solutions for Secure Data Handling  - Evolzer",
+    metaDescription:
+      "Evolzer offers robust data management solutions, ensuring data security, integrity & efficiency. Optimize your data strategies with us. Contact our experts!",
   },
   "generative-ai-services": {
     banner: "/images/tools/generative-ai/banner.jpg",
     title: "Generative AI Services",
     description:
       "Driving creativity, automation, innovation and delivering custom solutions to unlock new possibilities for your business.",
+    metaTitle: "Generative AI Development for Smarter Automation  - Evolzer",
+    metaDescription:
+      "Evolzer specializes in generative AI solutions for business automation & AI-driven content. Leverage AI for growth & efficiency. Explore AI with us today!",
   },
   "enterprise-ai-services": {
     banner: "/images/tools/enterprise-ai/banner.jpg",
     title: "Enterprise AI Solutions",
     description:
       "Drive success with custom AI models for predictive analytics, automation, and more.",
+    metaTitle: "Enterprise AI Solutions for Scalable Business AI  - Evolzer",
+    metaDescription:
+      "Evolzer helps enterprises harness AI for smarter operations & decision-making. Optimize your business with AI-driven solutions. Get a consultation today!",
   },
   "sale-force": {
     banner: "/images/banner-image/salesforce.jpg",
     title: "Salesforce Development Services",
     description:
       "Simplify operations, engage customers, and strengthen relationships with Salesforce.",
-    metaTitle: "Salesforce Development Services - Evolzer",
+    metaTitle: "Salesforce Development & CRM Implementation Experts  - Evolzer",
     metaDescription:
-      "At Evolzer, we specialize in helping you turn your business into a successful Salesforce customer. Schedule a call!",
+      "Evolzer helps businesses optimize customer engagement with Salesforce CRM solutions. Streamline sales & marketing with our expert services. Book a call now!",
   },
   "commerce-cloud": {
     banner: "/images/banner-image/salesforce.jpg",
@@ -206,6 +220,9 @@ export const titleDescription = {
     title: "Scalable Data Modernization Services",
     description:
       "Increasing data quality, monitoring, and compliance, leveraging contemporary tools and cloud platforms for agile, cost-efficient, and scalable data architecture.",
+    metaTitle: "Data Modernization Services for Cloud Migration  - Evolzer",
+    metaDescription:
+      "Evolzer modernizes legacy data systems with scalable cloud & AI-driven solutions. Upgrade your data infrastructure for better efficiency. Start now!",
   },
   shopify: {
     banner: "/images/tools/web-dev/shopify/shopify.jpg",
@@ -357,7 +374,7 @@ export const titleDescription = {
     metaTitle: "Case Studies Elahe - Evolzer",
     metaDescription: "",
   },
-  "thankyou": {
+  thankyou: {
     banner: "/images/case-study/gsb-banner.jpg",
     title: "Thank You",
     description: "",
@@ -367,16 +384,19 @@ export const titleDescription = {
   "ui-and-ux": {
     banner: "/images/banner-image/ui-ux-page-banner.jpg",
     title: "Crafting Seamless Digital Experiences",
-    description: "We design intuitive, engaging, and visually compelling user experiences that elevate your brand and enhance user interactions. Let’s create something exceptional together.",
+    description:
+      "We design intuitive, engaging, and visually compelling user experiences that elevate your brand and enhance user interactions. Let’s create something exceptional together.",
     metaTitle: "UI Features",
     metaDescription: "UI Features Evolzer",
   },
   "custom-app-development": {
     banner: "/images/banner-image/custom-app.jpg",
     title: "Custom App Development Tailored to Your Business Needs",
-    description: "Unlock innovation and scale your business with high-performing, secure, and scalable custom applications. Let’s build something extraordinary.",
+    description:
+      "Unlock innovation and scale your business with high-performing, secure, and scalable custom applications. Let’s build something extraordinary.",
     metaTitle: "Custom App Development Tailored to Your Business Needs",
-    metaDescription: "unlock innovation and scale your business with high performing, secure, and scalable custom applications and frameworks ",
+    metaDescription:
+      "unlock innovation and scale your business with high performing, secure, and scalable custom applications and frameworks ",
   },
 };
 

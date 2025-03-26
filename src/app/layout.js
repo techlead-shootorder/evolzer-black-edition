@@ -5,9 +5,9 @@ import CombinedHeader from "@/components/header/CombineHeader";
 import Script from "next/script";
 
 export const metadata = {
-  title: "Evolzer - Custom Mobile App, Web & Software Development Solutions",
+  title: "Evolzer - Custom App, Web, AI & Software Development Company",
   description:
-    "Looking for top-notch mobile app, web, and software development services? Evolzer delivers custom solutions to meet your business needs. Contact us for a free consultation!",
+    "Evolzer offers top-tier custom app development, web development, software solutions & AI consulting. Transform your business with us.",
 };
 
 export default function RootLayout({ children }) {

@@ -1,14 +1,19 @@
 import React from "react";
 import Link from "next/link";
-import Head from "next/head";
 
+
+
+
+export async function generateMetadata() {
+  return {
+    title: "Thank You Page ",
+    description:
+      "Get in touch with Evolzer for expert custom app development, web development & AI services. Let’s discuss your project needs today! Contact us now!",
+  };
+}
 const ThankYou = () => {
   return (
     <>
-      <Head>
-        <title>Thank You - Evolzer</title>
-      </Head>
-
       <section className="flex justify-center items-center min-h-screen bg-black text-white">
         <div className="bg-gray-900 shadow-lg rounded-lg p-10 text-center max-w-lg w-full">
           {/* Check Icon */}
