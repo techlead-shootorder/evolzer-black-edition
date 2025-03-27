@@ -5,6 +5,14 @@ import { titleDescription } from "@/utils/TitleDesBanner";
 import Image from "next/image";
 import React from "react";
 
+export async function generateMetadata() {
+  return {
+    title: "About Evolzer - Custom App, Web, AI & Software Development Experts",
+    description:
+      "Discover Evolzer, a trusted name in custom app development, web development & AI solutions. Learn about our expertise & how we drive digital transformation!",
+  };
+}
+
 const Page = () => {
   const bannerInfo = titleDescription["about-us"] || [];
   return (
