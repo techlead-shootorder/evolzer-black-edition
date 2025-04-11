@@ -3,6 +3,7 @@ import "./globals.css";
 import Footer from "@/components/footer/Footer";
 import CombinedHeader from "@/components/header/CombineHeader";
 import Script from "next/script";
+import CanonicalTag from "@/components/canonical/CanonicalTag";
 
 export const metadata = {
   title: "Evolzer - Custom App, Web, AI & Software Development Company",
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
       <head />
       <body className="antialiased relative">
         {/* Google Tag Manager */}
+        <CanonicalTag/>
         <Script
           id="gtm-script"
           strategy="afterInteractive"

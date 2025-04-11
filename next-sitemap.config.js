@@ -1,15 +1,14 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-    siteUrl: "https://www.evolzer.com/", // Replace with your site's base URL
-    generateRobotsTxt: true, // Generates a robots.txt file
-    sitemapSize: 5000, // Split sitemaps if you have many pages
-    changefreq: "daily", // Optional: Frequency of page changes
-    priority: 0.7, // Optional: Default priority for URLs
-    exclude: ["/admin/*", "/api/*"], // Optional: Exclude specific routes
-    robotsTxtOptions: {
-      additionalSitemaps: [
-        "", // Add custom sitemaps if needed
-      ],
-    },
-  };
-  
+  siteUrl: "https://www.evolzer.com/", // Your site's base URL
+  generateRobotsTxt: true, // Generate robots.txt file
+  sitemapSize: 5000, // Ensure all URLs go into a single sitemap
+  changefreq: "daily",
+  priority: 0.7,
+  exclude: ["/admin/*", "/api/*"],
+  generateIndexSitemap: false, // 👈 This disables multiple files like sitemap-0.xml
+  sitemapBaseFileName: "sitemap", // 👈 This names the file sitemap.xml instead
+  robotsTxtOptions: {
+    additionalSitemaps: [], // Optional: Leave empty or add other custom sitemap URLs if needed
+  },
+};

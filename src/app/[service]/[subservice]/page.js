@@ -28,6 +28,12 @@ const allowedServices = {
     "ruby",
     "angular",
     "php",
+    "lamp",
+    "mean",
+    "mern",
+    "mevn",
+    "vue",
+    "nextjs",
   ],
   "mobile-application": [
     "cordova",
@@ -36,6 +42,7 @@ const allowedServices = {
     "ios",
     "android-app-development",
     "react-native",
+    
   ],
   hubspot: [
     "hubspot-cms-implementation",
