@@ -92,9 +92,9 @@ const MegaMenu = () => {
                             />
                           </div>
                           <div>
-                            <h6 className="ruby-list-headings left-headings">
+                            <p className="ruby-list-headings left-headings font-bold">
                               <span className="text-black">Leading Technologies:</span>
-                            </h6>
+                            </p>
                             <p>
                               Tech that simplifies your operations and gives you
                               an edge.
@@ -109,9 +109,9 @@ const MegaMenu = () => {
                             />
                           </div>
                           <div>
-                            <h6 className="ruby-list-headings left-headings">
+                            <p className="ruby-list-headings left-headings font-bold">
                               <span className="text-black">Trusted Tech Experts:</span>
-                            </h6>
+                            </p>
                             <p>
                               Reliable and innovative solutions crafted by
                               experts.
@@ -121,12 +121,12 @@ const MegaMenu = () => {
                       </div>
 
                       <div className="ruby-col-8 apply-padding">
-                        <h3 className="ruby-list-heading text-black">Our Services</h3>
+                        <p className="ruby-list-heading text-black font-bold text-[20px] leading-[24px]">Our Services</p>
                         <div className="ruby-row">
                           <div className="ruby-col-3 ruby-col-6-md">
-                            <h6 className="ruby-list-headings text-black">
+                            <p className="ruby-list-headings text-black">
                               App Development
-                            </h6>
+                            </p>
                             <ul>
                               <li>
                                 <Link href="/mobile-application" passHref onClick={handleMenuItemClick}>
@@ -149,9 +149,9 @@ const MegaMenu = () => {
                             className="ruby-col-3 ruby-col-6-md"
                             style={{ paddingLeft: 10 }}
                           >
-                            <h6 className="ruby-list-headings text-black">
+                            <p className="ruby-list-headings text-black">
                               Implementation
-                            </h6>
+                            </p>
                             <ul>
                               <li>
                                 <Link href="/sap-application" passHref onClick={handleMenuItemClick}>
@@ -174,9 +174,9 @@ const MegaMenu = () => {
                             className="ruby-col-3 hidden-md"
                             style={{ paddingLeft: 15 }}
                           >
-                            <h6 className="ruby-list-headings text-black">
+                            <p className="ruby-list-headings text-black">
                               Intelligent Data
-                            </h6>
+                            </p>
                             <ul>
                               <li>
                                 <Link href="/data-annotation" passHref onClick={handleMenuItemClick}>
@@ -199,7 +199,7 @@ const MegaMenu = () => {
                             className="ruby-col-3 hidden-md"
                             style={{ paddingLeft: 15 }}
                           >
-                            <h6 className="ruby-list-headings text-black">AI/ML</h6>
+                            <p className="ruby-list-headings text-black">AI/ML</p>
                             <ul>
                               <li>
                                 <Link href="/generative-ai-services" passHref onClick={handleMenuItemClick}>

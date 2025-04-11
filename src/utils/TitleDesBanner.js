@@ -35,7 +35,6 @@ import {
 export const titleDescription = {
   "web-development": {
     title: "Expert Web Development",
-
     banner: "/images/banner-image/web-application.png",
     description:
       "Crafting user-friendly, responsive and high-performing websites that shine online, using the latest technologies and best practices to help you stand out in the crowd.",
