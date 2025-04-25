@@ -240,15 +240,15 @@ const servicesData = {
       type: "stack",
     },
     {
-      name: "MEAN",
+      name: "mean",
       imageUrl: "/images/tech-stack/mean.webp",
-      navigate: "/under-maintenance",
+      navigate: "/web-development/mean",
       type: "stack",
     },
     {
-      name: "MERN",
+      name: "mern",
       imageUrl: "/images/tech-stack/mern.webp",
-      navigate: "/under-maintenance",
+      navigate: "/web-development/mean",
       type: "stack",
     },
     {
@@ -273,31 +273,31 @@ const servicesData = {
     {
       name: "JavaScript",
       imageUrl: "/images/tech-stack/javascript.webp",
-      navigate: "/under-maintenance",
+      navigate: "/web-development/javascript",
       type: "tool",
     },
     {
       name: "TypeScript",
       imageUrl: "/images/tech-stack/typescript.webp",
-      navigate: "/under-maintenance",
+      navigate: "/web-development/typescript",
       type: "tool",
     },
     {
       name: "Perl",
       imageUrl: "/images/tech-stack/perl.webp",
-      navigate: "/under-maintenance",
+      navigate: "/web-development/perl",
       type: "tool",
     },
     {
       name: "Bash",
       imageUrl: "/images/tech-stack/Bash.webp",
-      navigate: "/under-maintenance",
+      navigate: "/web-development/bash",
       type: "tool",
     },
     {
       name: "Go",
       imageUrl: "/images/tech-stack/go.webp",
-      navigate: "/under-maintenance",
+      navigate: "/web-development/go",
       type: "tool",
     },
     {

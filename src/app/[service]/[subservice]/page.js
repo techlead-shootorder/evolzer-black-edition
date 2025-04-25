@@ -34,6 +34,11 @@ const allowedServices = {
     "mevn",
     "vue",
     "nextjs",
+    "javascript",
+    "typescript",
+    "perl",
+    "bash",
+    "go",
   ],
   "mobile-application": [
     "cordova",

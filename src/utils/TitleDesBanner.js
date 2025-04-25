@@ -397,6 +397,69 @@ export const titleDescription = {
     metaDescription:
       "unlock innovation and scale your business with high performing, secure, and scalable custom applications and frameworks ",
   },
+  mern: {
+    banner: "/images/banner-image/custom-app.jpg",
+    title:
+      "Build Scalable, Dynamic, and High-Performance Web Applications with MERN",
+    description:
+      "Unlock innovation and scale your business with high-performing, secure, and scalable custom applications. Let’s build something extraordinary.",
+    metaTitle: "Custom App Development Tailored to Your Business Needs",
+    metaDescription:
+      "unlock innovation and scale your business with high performing, secure, and scalable custom applications and frameworks ",
+  },
+  mean: {
+    banner: "/images/banner-image/custom-app.jpg",
+    title: "Power Your Web Presence with MEAN Stack Development ",
+    description:
+      "At Evolzer, we harness the power of the MEAN stack—MongoDB, Express.js, AngularJS, and Node.js—to create cutting-edge web solutions that drive business growth. Our team of experts ensures every project is tailored to your unique needs, delivering secure, scalable, and high-performance applications. ",
+    metaTitle: "Custom App Development Tailored to Your Business Needs",
+    metaDescription:
+      "unlock innovation and scale your business with high performing, secure, and scalable custom applications and frameworks ",
+  },
+  javascript: {
+    banner: "/images/banner-image/custom-app.jpg",
+    title: "The Future of Web is JavaScript ",
+    description: "Turn Concepts into Dynamic Digital Experiences ",
+    metaTitle: "Custom App Development Tailored to Your Business Needs",
+    metaDescription:
+      "unlock innovation and scale your business with high performing, secure, and scalable custom applications and frameworks ",
+  },
+  typescript: {
+    banner: "/images/banner-image/custom-app.jpg",
+    title: "Typescript Development  ",
+    description:
+      "TypeScript is the future of web development, offering robust features, better code maintainability, and enhanced scalability. With its ability to catch errors early and provide strong typing, TypeScript ensures your applications are reliable and efficient. Let us help you harness the power of TypeScript to create solutions that drive your business forward. ",
+    metaTitle: "Custom App Development Tailored to Your Business Needs",
+    metaDescription:
+      "unlock innovation and scale your business with high performing, secure, and scalable custom applications and frameworks ",
+  },
+  perl: {
+    banner: "/images/banner-image/custom-app.jpg",
+    title: "Perl Development Services   ",
+    description:
+      "At Evolzer, we harness the maturity and robustness of Perl to build scalable, reliable, and enduring solutions tailored to your specific needs. Whether you require intricate system scripting, powerful text processing, or the maintenance and modernization of existing Perl applications, our expertise ensures your project is in capable hands. ",
+    metaTitle: "Custom App Development Tailored to Your Business Needs",
+    metaDescription:
+      "unlock innovation and scale your business with high performing, secure, and scalable custom applications and frameworks ",
+  },
+  bash: {
+    banner: "/images/banner-image/custom-app.jpg",
+    title: "Bash Scripting Solutions",
+    description:
+      "In the world of efficient system administration and task automation, Bash remains a powerful and indispensable tool. At Evolzer, we harness the versatility and efficiency of Bash scripting to create tailored solutions that streamline your operations, automate repetitive tasks, and simplify complex workflows. Whether you need robust system management scripts, automated deployment processes, or custom command-line tools, our Bash expertise delivers reliable and effective results. ",
+    metaTitle: "Custom App Development Tailored to Your Business Needs",
+    metaDescription:
+      "unlock innovation and scale your business with high performing, secure, and scalable custom applications and frameworks ",
+  },
+  go: {
+    banner: "/images/banner-image/custom-app.jpg",
+    title: "Go Programming Language ",
+    description:
+      "Go Programming Language is a powerful and efficient language that excels in building scalable, high-performance applications. At Evolzer, we leverage Go's concurrency features and simplicity to create robust solutions tailored to your needs. Whether you require microservices, web applications, or cloud-native solutions, our Go expertise ensures your projects are delivered with speed and reliability. ",
+    metaTitle: "Custom App Development Tailored to Your Business Needs",
+    metaDescription:
+      "unlock innovation and scale your business with high performing, secure, and scalable custom applications and frameworks ",
+  },
 };
 
 // Industry Page title and images

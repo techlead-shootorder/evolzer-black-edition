@@ -17,9 +17,16 @@ const Modal = ({ handleShow, handleClose, show }) => {
 
   const [errors, setErrors] = useState({});
   const [isAboutUsPage, setIsAboutUsPage] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false);  
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
+  useEffect(() => {
+    if (show) {
+      document.body.style.overflow = "hidden"; // Disable scrolling
+    } else {
+      document.body.style.overflow = ""; // Reset
+    }
+  });
   useEffect(() => {
     if (typeof window !== "undefined") {
       const path = window.location.pathname;
@@ -82,7 +89,7 @@ const Modal = ({ handleShow, handleClose, show }) => {
 
     const urlPath = window.location.pathname;
 
-    setIsSubmitting(true);  // Disable button after click
+    setIsSubmitting(true); // Disable button after click
 
     try {
       const response = await fetch("/api/data", {
@@ -121,7 +128,7 @@ const Modal = ({ handleShow, handleClose, show }) => {
           utm_campaign: formData.utm_campaign,
           utm_term: formData.utm_term,
           utm_content: formData.utm_content,
-          division:"evolzer",
+          division: "evolzer",
         }),
       });
       console.log("hello", responseData);
@@ -140,7 +147,7 @@ const Modal = ({ handleShow, handleClose, show }) => {
     } catch (error) {
       toast.error("There was a problem with the form submission.");
       console.error("Fetch operation error:", error);
-      setIsSubmitting(false);  // Re-enable button if submission fails
+      setIsSubmitting(false); // Re-enable button if submission fails
     }
   };
 
@@ -150,8 +157,14 @@ const Modal = ({ handleShow, handleClose, show }) => {
         <div
           className="fixed inset-0  flex items-center justify-center bg-black bg-opacity-50"
           style={{ zIndex: "9990000" }}
+          data-aos="fade-up"
+          data-aos-delay="100"
         >
-          <div className="bg-white rounded-lg shadow-lg w-full max-w-md p-6 relative">
+          <div
+            className="bg-white rounded-lg shadow-lg w-full max-w-md p-6 relative"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <button
               className="absolute top-3 right-3 text-[20px] !bg-white !text-gray-500 hover:text-gray-700"
               onClick={handleClose}

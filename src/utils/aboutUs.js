@@ -726,7 +726,8 @@ export const aboutUs = {
                 fontSize: "16px",
               }}
             />{" "}
-            User-Centric Design : Seamlessly designed interfaces that enhance usability and engagement.
+            User-Centric Design : Seamlessly designed interfaces that enhance
+            usability and engagement.
           </li>
           <li className="flex items-center gap-2">
             <BiSolidSend
@@ -735,7 +736,8 @@ export const aboutUs = {
                 fontSize: "20px",
               }}
             />{" "}
-            Adaptive & Scalable Solutions  : Custom UI/UX strategies that evolve with your business needs and technology trends.
+            Adaptive & Scalable Solutions : Custom UI/UX strategies that evolve
+            with your business needs and technology trends.
           </li>
 
           <li className="flex items-center gap-2">
@@ -745,7 +747,8 @@ export const aboutUs = {
                 fontSize: "20px",
               }}
             />{" "}
-           Performance-Driven Experiences : Optimized designs ensuring seamless navigation, faster load times, and higher conversions.
+            Performance-Driven Experiences : Optimized designs ensuring seamless
+            navigation, faster load times, and higher conversions.
           </li>
           {/* <li className="flex items-center gap-2">
             <BiSolidSend
@@ -759,6 +762,344 @@ export const aboutUs = {
           </li> */}
         </ul>
       </>
+    ),
+    image: "/images/tools/ui-and-ux/Transforming-digital.jpg",
+  },
+
+  mern: {
+    heading: "Our Expert Services",
+    subheading: (
+      <div className="space-y-6 mt-4">
+        {/* Item 1 */}
+        <div className="flex items-start gap-3">
+          <BiSolidSend className="text-[#f15a29] mt-1 text-lg" />
+          <div>
+            <h4 className="font-semibold text-base lg:text-lg">
+              Custom MERN Stack Development
+            </h4>
+            <p className="text-sm text-white">
+              Tailored web applications designed to meet your unique business
+              requirements.
+            </p>
+          </div>
+        </div>
+
+        {/* Item 2 */}
+        <div className="flex items-start gap-3">
+          <BiSolidSend className="text-[#f15a29] mt-1 text-lg" />
+          <div>
+            <h4 className="font-semibold text-base lg:text-lg">
+              Adaptive & Scalable Solutions
+            </h4>
+            <p className="text-sm text-white">
+              Custom UI/UX strategies that evolve with your business needs and
+              technology trends.
+            </p>
+          </div>
+        </div>
+
+        {/* Item 3 */}
+        <div className="flex items-start gap-3">
+          <BiSolidSend className="text-[#f15a29] mt-1 text-lg" />
+          <div>
+            <h4 className="font-semibold text-base lg:text-lg">
+              Performance-Driven Experiences
+            </h4>
+            <p className="text-sm text-white">
+              Optimized designs ensuring seamless navigation, faster load times,
+              and higher conversions.
+            </p>
+          </div>
+        </div>
+      </div>
+    ),
+    image: "/images/tools/ui-and-ux/Transforming-digital.jpg",
+  },
+  mean: {
+    heading: "Our Expert Services",
+    subheading: (
+      <div className="space-y-6 mt-4">
+        {/* Item 1 */}
+        <div className="flex items-start gap-3">
+          <BiSolidSend className="text-[#f15a29] mt-1 text-lg" />
+          <div>
+            <h4 className="font-semibold text-base lg:text-lg">
+              Custom MEAN Stack Development
+            </h4>
+            <p className="text-sm text-white">
+              Build dynamic, full-stack web applications tailored to your
+              business needs.
+            </p>
+          </div>
+        </div>
+        {/* Item 2 */}
+        <div className="flex items-start gap-3">
+          <BiSolidSend className="text-[#f15a29] mt-1 text-lg" />
+          <div>
+            <h4 className="font-semibold text-base lg:text-lg">
+              API & Microservices Development
+            </h4>
+            <p className="text-sm text-white">
+              Create seamless integrations and scalable microservices for
+              enhanced functionality.
+            </p>
+          </div>
+        </div>
+
+        {/* Item 3 */}
+        <div className="flex items-start gap-3">
+          <BiSolidSend className="text-[#f15a29] mt-1 text-lg" />
+          <div>
+            <h4 className="font-semibold text-base lg:text-lg">
+              Legacy Application Modernization
+            </h4>
+            <p className="text-sm text-white">
+              Upgrade outdated systems with modern MEAN-based solutions for
+              improved performance.
+            </p>
+          </div>
+        </div>
+      </div>
+    ),
+    image: "/images/tools/ui-and-ux/Transforming-digital.jpg",
+  },
+  javascript: {
+    heading: "Our Expert Services",
+    subheading: (
+      <div className="space-y-6 mt-4">
+        {/* Item 1 */}
+        <div className="flex items-start gap-3">
+          <BiSolidSend className="text-[#f15a29] mt-1 text-lg" />
+          <div>
+            <h4 className="font-semibold text-base lg:text-lg">
+              Custom Web Application Development
+            </h4>
+            <p className="text-sm text-white">
+              Crafting bespoke solutions that align perfectly with your business
+              goals and user requirements.
+            </p>
+          </div>
+        </div>
+        {/* Item 2 */}
+        <div className="flex items-start gap-3">
+          <BiSolidSend className="text-[#f15a29] mt-1 text-lg" />
+          <div>
+            <h4 className="font-semibold text-base lg:text-lg">
+              Front-End Development
+            </h4>
+            <p className="text-sm text-white">
+              Interactive and visually stunning interfaces using frameworks like
+              React.js and Angular.js.
+            </p>
+          </div>
+        </div>
+
+        {/* Item 3 */}
+        <div className="flex items-start gap-3">
+          <BiSolidSend className="text-[#f15a29] mt-1 text-lg" />
+          <div>
+            <h4 className="font-semibold text-base lg:text-lg">
+              API Integration & Back-End Development
+            </h4>
+            <p className="text-sm text-white">
+              Robust back-end systems powered by Node.js for seamless
+              functionality.
+            </p>
+          </div>
+        </div>
+      </div>
+    ),
+    image: "/images/tools/ui-and-ux/Transforming-digital.jpg",
+  },
+  typescript: {
+    heading: "Our Expert Services",
+    subheading: (
+      <div className="space-y-6 mt-4">
+        {/* Item 1 */}
+        <div className="flex items-start gap-3">
+          <BiSolidSend className="text-[#f15a29] mt-1 text-lg" />
+          <div>
+            <h4 className="font-semibold text-base lg:text-lg">
+              Custom Application Development
+            </h4>
+            <p className="text-sm text-white">
+              Build scalable and secure applications tailored to your business
+              needs.
+            </p>
+          </div>
+        </div>
+        {/* Item 2 */}
+        <div className="flex items-start gap-3">
+          <BiSolidSend className="text-[#f15a29] mt-1 text-lg" />
+          <div>
+            <h4 className="font-semibold text-base lg:text-lg">
+              Migration to TypeScript
+            </h4>
+            <p className="text-sm text-white">
+              Seamlessly upgrade your JavaScript codebase to TypeScript for
+              enhanced performance and maintainability.
+            </p>
+          </div>
+        </div>
+
+        {/* Item 3 */}
+        <div className="flex items-start gap-3">
+          <BiSolidSend className="text-[#f15a29] mt-1 text-lg" />
+          <div>
+            <h4 className="font-semibold text-base lg:text-lg">
+              API Integration & Back-End Development
+            </h4>
+            <p className="text-sm text-white">
+              Create robust back-end systems powered by TypeScript for seamless
+              functionality.
+            </p>
+          </div>
+        </div>
+      </div>
+    ),
+    image: "/images/tools/ui-and-ux/Transforming-digital.jpg",
+  },
+  perl: {
+    heading: "Our Expert Services",
+    subheading: (
+      <div className="space-y-6 mt-4">
+        {/* Item 1 */}
+        <div className="flex items-start gap-3">
+          <BiSolidSend className="text-[#f15a29] mt-1 text-lg" />
+          <div>
+            <h4 className="font-semibold text-base lg:text-lg">
+              Custom Perl Application Development
+            </h4>
+            <p className="text-sm text-white">
+              Building tailored solutions for system administration, automation,
+              data processing, and web development.
+            </p>
+          </div>
+        </div>
+        {/* Item 2 */}
+        <div className="flex items-start gap-3">
+          <BiSolidSend className="text-[#f15a29] mt-1 text-lg" />
+          <div>
+            <h4 className="font-semibold text-base lg:text-lg">
+              Legacy Perl System Maintenance & Modernization
+            </h4>
+            <p className="text-sm text-white">
+              Ensuring the stability, security, and longevity of your existing
+              Perl infrastructure.
+            </p>
+          </div>
+        </div>
+
+        {/* Item 3 */}
+        <div className="flex items-start gap-3">
+          <BiSolidSend className="text-[#f15a29] mt-1 text-lg" />
+          <div>
+            <h4 className="font-semibold text-base lg:text-lg">
+              Perl Scripting & Automation
+            </h4>
+            <p className="text-sm text-white">
+              Developing powerful scripts to automate repetitive tasks and
+              streamline your workflows.
+            </p>
+          </div>
+        </div>
+      </div>
+    ),
+    image: "/images/tools/ui-and-ux/Transforming-digital.jpg",
+  },
+  bash: {
+    heading: "Our Expert Services",
+    subheading: (
+      <div className="space-y-6 mt-4">
+        {/* Item 1 */}
+        <div className="flex items-start gap-3">
+          <BiSolidSend className="text-[#f15a29] mt-1 text-lg" />
+          <div>
+            <h4 className="font-semibold text-base lg:text-lg">
+              Custom Bash Script Development
+            </h4>
+            <p className="text-sm text-white">
+              Creating tailored scripts for system administration, automation,
+              data processing, and task management.
+            </p>
+          </div>
+        </div>
+        {/* Item 2 */}
+        <div className="flex items-start gap-3">
+          <BiSolidSend className="text-[#f15a29] mt-1 text-lg" />
+          <div>
+            <h4 className="font-semibold text-base lg:text-lg">
+              Automation of Deployment and Maintenance
+            </h4>
+            <p className="text-sm text-white">
+              Streamlining your deployment pipelines and automating routine
+              system maintenance tasks.
+            </p>
+          </div>
+        </div>
+
+        {/* Item 3 */}
+        <div className="flex items-start gap-3">
+          <BiSolidSend className="text-[#f15a29] mt-1 text-lg" />
+          <div>
+            <h4 className="font-semibold text-base lg:text-lg">
+              DevOps & CI/CD Integration
+            </h4>
+            <p className="text-sm text-white">
+              Integrate BASH scripts into your DevOps pipeline for seamless
+              deployment.
+            </p>
+          </div>
+        </div>
+      </div>
+    ),
+    image: "/images/tools/ui-and-ux/Transforming-digital.jpg",
+  },
+  go: {
+    heading: "Our Expert Services",
+    subheading: (
+      <div className="space-y-6 mt-4">
+        {/* Item 1 */}
+        <div className="flex items-start gap-3">
+          <BiSolidSend className="text-[#f15a29] mt-1 text-lg" />
+          <div>
+            <h4 className="font-semibold text-base lg:text-lg">
+              Custom Go Application Development
+            </h4>
+            <p className="text-sm text-white">
+              Build scalable, high-performance web and backend applications
+              tailored to your requirements.
+            </p>
+          </div>
+        </div>
+        {/* Item 2 */}
+        <div className="flex items-start gap-3">
+          <BiSolidSend className="text-[#f15a29] mt-1 text-lg" />
+          <div>
+            <h4 className="font-semibold text-base lg:text-lg">
+              Microservices & API Development
+            </h4>
+            <p className="text-sm text-white">
+              Design and implement efficient microservices architectures and
+              RESTful APIs using Go.
+            </p>
+          </div>
+        </div>
+
+        {/* Item 3 */}
+        <div className="flex items-start gap-3">
+          <BiSolidSend className="text-[#f15a29] mt-1 text-lg" />
+          <div>
+            <h4 className="font-semibold text-base lg:text-lg">
+              Cloud-Native Solutions
+            </h4>
+            <p className="text-sm text-white">
+              Develop containerized, cloud-ready applications optimized for
+              platforms like Kubernetes and Docker.
+            </p>
+          </div>
+        </div>
+      </div>
     ),
     image: "/images/tools/ui-and-ux/Transforming-digital.jpg",
   },

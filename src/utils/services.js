@@ -1452,7 +1452,7 @@ export const servicesData = {
         "We can help you to automate repetitive mundane tasks to reduce manual errors. This allows your team to focus on complex issues to improve the efficiency of the process and to ensure timely responses.",
     },
   ],
-"custom-app-development": [
+  "custom-app-development": [
     {
       imageUrl:
         "/images/tools/custom-app-development/consultation-and-strategy.jpg",
@@ -1475,8 +1475,7 @@ export const servicesData = {
         "We create high-performance cross-platform apps with a robust backend to ensure seamless functionality, scalability, and security.",
     },
     {
-      imageUrl:
-        "/images/tools/custom-app-development/api-integration.jpg",
+      imageUrl: "/images/tools/custom-app-development/api-integration.jpg",
       card_title: "API Integration",
       card_subtitle:
         "We enhance app functionality by integrating third-party APIs, enabling seamless connections with external services, payment gateways, and other essential tools.",
@@ -1498,47 +1497,264 @@ export const servicesData = {
   ],
   "ui-and-ux": [
     {
-      imageUrl:
-        "/images/tools/ui-and-ux/user-research-and-analysis.jpg",
+      imageUrl: "/images/tools/ui-and-ux/user-research-and-analysis.jpg",
       card_title: "User Research & Analysis",
-      card_subtitle:
-        "Understanding user behavior for data-driven design.",
+      card_subtitle: "Understanding user behavior for data-driven design.",
     },
     {
-      imageUrl:
-        "/images/tools/ui-and-ux/wireframing-and-prototyping.jpg",
+      imageUrl: "/images/tools/ui-and-ux/wireframing-and-prototyping.jpg",
       card_title: "Wireframing & Prototyping",
-      card_subtitle:
-        "Creating engaging blueprints for better usability.",
+      card_subtitle: "Creating engaging blueprints for better usability.",
     },
     {
-      imageUrl:
-        "/images/tools/ui-and-ux/ui-ux-page.jpg",
+      imageUrl: "/images/tools/ui-and-ux/ui-ux-page.jpg",
       card_title: "UI/UX Design",
-      card_subtitle:
-        "Designing visually stunning and user-friendly interface.",
+      card_subtitle: "Designing visually stunning and user-friendly interface.",
     },
     {
-      imageUrl:
-        "/images/tools/ui-and-ux/mobile-and-web-app-design.jpg",
+      imageUrl: "/images/tools/ui-and-ux/mobile-and-web-app-design.jpg",
       card_title: "Mobile & Web App Design ",
       card_subtitle:
         "Engaging designs customised for cross-platform experiences.",
     },
     {
-      imageUrl:
-        "/images/tools/ui-and-ux/usability-testing.jpg",
+      imageUrl: "/images/tools/ui-and-ux/usability-testing.jpg",
       card_title: " Usability Testing ",
-      card_subtitle:
-        "Ensuring seamless user interaction and functionality.",
+      card_subtitle: "Ensuring seamless user interaction and functionality.",
     },
     {
-      imageUrl:
-        "/images/tools/ui-and-ux/design-system-and-branding.jpg",
+      imageUrl: "/images/tools/ui-and-ux/design-system-and-branding.jpg",
       card_title: "Design System & Branding",
       card_subtitle:
         "Offering consistent, scalable, and brand-aligned visuals.",
     },
   ],
+  mern: [
+    {
+      imageUrl: "/images/tools/ui-and-ux/user-research-and-analysis.jpg",
+      card_title: "Discovery  ",
+      card_subtitle:
+        "We discuss your goals, audience, and vision to lay the foundation.  ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/wireframing-and-prototyping.jpg",
+      card_title: "Research  ",
+      card_subtitle:
+        "We analyze trends and competitors to inform our approach. ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/ui-ux-page.jpg",
+      card_title: "Design ",
+      card_subtitle:
+        "Our team creates custom visuals tailored to your brand.  ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/mobile-and-web-app-design.jpg",
+      card_title: "Review ",
+      card_subtitle:
+        "We refine the work based on your feedback for perfection. ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/usability-testing.jpg",
+      card_title: " Delivery ",
+      card_subtitle:
+        "We provide final assets and support for a successful launch. ",
+    },
+  ],
+  mean: [
+    {
+      imageUrl: "/images/tools/ui-and-ux/user-research-and-analysis.jpg",
+      card_title: "Discovery  ",
+      card_subtitle:
+        " We start by understanding your business goals, audience, and the problem you’re trying to solve—laying a strong foundation for success.",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/wireframing-and-prototyping.jpg",
+      card_title: "Research  ",
+      card_subtitle:
+        " We dive deep into market trends, user behavior, and competitor analysis to ensure your product stands out in both function and design. ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/ui-ux-page.jpg",
+      card_title: "Design ",
+      card_subtitle:
+        " Our designers craft user-centric interfaces and intuitive experiences that resonate with your brand and engage your users.",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/mobile-and-web-app-design.jpg",
+      card_title: "Review ",
+      card_subtitle:
+        "We collaborate with you to refine the prototype, incorporating feedback and ensuring the solution aligns with your expectations. ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/usability-testing.jpg",
+      card_title: " Delivery ",
+      card_subtitle:
+        " Once perfected, we deliver your MEAN-powered solution along with full support—ready to make an impact from day one. ",
+    },
+  ],
+  javascript: [
+    {
+      imageUrl: "/images/tools/ui-and-ux/user-research-and-analysis.jpg",
+      card_title: "Discovery  ",
+      card_subtitle:
+        "We align your goals and user expectations to define the functional roadmap and technical requirements for a seamless JavaScript-powered experience.  ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/wireframing-and-prototyping.jpg",
+      card_title: "Research  ",
+      card_subtitle:
+        "From choosing the optimal JavaScript frameworks (React, Vue, Node.js) and libraries to analyzing technical feasibility and integration points, we lay a smart and robust tech foundation. ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/ui-ux-page.jpg",
+      card_title: "Development ",
+      card_subtitle:
+        "  We build dynamic components, real-time features, and seamless front-end/backend logic using JavaScript’s ecosystem to enhance interactivity and performance.",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/mobile-and-web-app-design.jpg",
+      card_title: "Review ",
+      card_subtitle:
+        "We rigorously test, debug, and optimize the JavaScript codebase for performance, scalability, cross-browser compatibility, and adherence to coding standards.  ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/usability-testing.jpg",
+      card_title: " Delivery ",
+      card_subtitle:
+        "We deploy your application using industry-standard JavaScript stacks, providing comprehensive support, documentation, and API integrations for a smooth go-live. ",
+    },
+  ],
+  typescript: [
+    {
+      imageUrl: "/images/tools/ui-and-ux/user-research-and-analysis.jpg",
+      card_title: "Discovery  ",
+      card_subtitle:
+        " We collaborate with you to understand your goals, target audience, and vision—laying the foundation for a well-typed, scalable architecture. ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/wireframing-and-prototyping.jpg",
+      card_title: "Research  ",
+      card_subtitle:
+        "We evaluate industry trends and competitor strategies to design a robust, type-safe approach tailored to your business needs. ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/ui-ux-page.jpg",
+      card_title: "Design ",
+      card_subtitle:
+        "  We craft intuitive UI/UX backed by TypeScript-driven code—ensuring clarity, consistency, and seamless integration with frameworks like Angular, React, or Node.",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/mobile-and-web-app-design.jpg",
+      card_title: "Review ",
+      card_subtitle:
+        " We validate your application using TypeScript’s static typing and linting tools, refining the solution to eliminate bugs and enhance maintainability. ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/usability-testing.jpg",
+      card_title: " Delivery ",
+      card_subtitle:
+        " We deliver clean, well-documented TypeScript code along with post-launch support to ensure your solution performs flawlessly and scales effortlessly.",
+    },
+  ],
+  perl: [
+    {
+      imageUrl: "/images/tools/ui-and-ux/user-research-and-analysis.jpg",
+      card_title: "Discovery  ",
+      card_subtitle:
+        "  We begin by understanding your project’s core objectives, audience needs, and technical goals—setting the stage for a performance-driven Perl solution. ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/wireframing-and-prototyping.jpg",
+      card_title: "Research  ",
+      card_subtitle:
+        "Our team dives deep into industry benchmarks and system requirements to tailor a scalable and secure backend strategy powered by Perl’s scripting strengths.  ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/ui-ux-page.jpg",
+      card_title: "Design ",
+      card_subtitle:
+        "  We architect efficient Perl-based modules, scripts, and automation processes while ensuring seamless integration with existing systems and databases. ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/mobile-and-web-app-design.jpg",
+      card_title: "Review ",
+      card_subtitle:
+        " Using Perl's debugging and testing tools, we fine-tune every script and component to ensure it runs flawlessly in real-world conditions. ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/usability-testing.jpg",
+      card_title: " Delivery ",
+      card_subtitle:
+        " We deliver a fully functional, well-documented Perl solution along with post-deployment support to ensure stability, performance, and long-term success. ",
+    },
+  ],
+  bash: [
+    {
+      imageUrl: "/images/tools/ui-and-ux/user-research-and-analysis.jpg",
+      card_title: "Discovery  ",
+      card_subtitle:
+        "We begin with a detailed discussion to understand your specific automation needs, system requirements, and desired outcomes. ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/wireframing-and-prototyping.jpg",
+      card_title: "Research  ",
+      card_subtitle:
+        "We analyze your current workflows and identify opportunities for optimization and automation through Bash scripting. ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/ui-ux-page.jpg",
+      card_title: "Design ",
+      card_subtitle:
+        " Our experienced team designs efficient and robust Bash scripts tailored to your environment and objectives. ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/mobile-and-web-app-design.jpg",
+      card_title: "Review ",
+      card_subtitle:
+        "We prioritize your feedback, conducting thorough reviews and incorporating your insights to ensure the scripts meet your exact requirements. ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/usability-testing.jpg",
+      card_title: " Delivery ",
+      card_subtitle:
+        "We provide well-documented, thoroughly tested Bash scripts and offer comprehensive support for seamless integration and ongoing use within your systems. ",
+    },
+  ],
+  go: [
+    {
+      imageUrl: "/images/tools/ui-and-ux/user-research-and-analysis.jpg",
+      card_title: "Discovery  ",
+      card_subtitle:
+        "We begin with a deep dive into your performance requirements, scalability needs, and overall project vision. ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/wireframing-and-prototyping.jpg",
+      card_title: "Research  ",
+      card_subtitle:
+        "We analyze your specific use case and identify the optimal Go libraries and architectural patterns for maximum efficiency. ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/ui-ux-page.jpg",
+      card_title: "Design ",
+      card_subtitle:
+        " Our experienced team designs robust and scalable Go architectures tailored to your performance and reliability goals. ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/mobile-and-web-app-design.jpg",
+      card_title: "Review ",
+      card_subtitle:
+        "We prioritize your feedback, conducting thorough code reviews and performance testing to ensure the solution meets your exact specifications. ",
+    },
+    {
+      imageUrl: "/images/tools/ui-and-ux/usability-testing.jpg",
+      card_title: " Delivery ",
+      card_subtitle:
+        "We provide well-documented, thoroughly tested Go applications and offer comprehensive support for seamless deployment and ongoing optimization. ",
+    },
+  ],
+  
+  
+
   // Add similar arrays for other services (e.g., app-development, software-development, etc.)
 };
