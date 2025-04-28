@@ -398,7 +398,7 @@ export const titleDescription = {
       "unlock innovation and scale your business with high performing, secure, and scalable custom applications and frameworks ",
   },
   mern: {
-    banner: "/images/banner-image/custom-app.jpg",
+    banner: "/images/banner-image/mern-bg.jpg",
     title:
       "Build Scalable, Dynamic, and High-Performance Web Applications with MERN",
     description:
@@ -408,7 +408,7 @@ export const titleDescription = {
       "unlock innovation and scale your business with high performing, secure, and scalable custom applications and frameworks ",
   },
   mean: {
-    banner: "/images/banner-image/custom-app.jpg",
+    banner: "/images/banner-image/mean-bg.jpg",
     title: "Power Your Web Presence with MEAN Stack Development ",
     description:
       "At Evolzer, we harness the power of the MEAN stack—MongoDB, Express.js, AngularJS, and Node.js—to create cutting-edge web solutions that drive business growth. Our team of experts ensures every project is tailored to your unique needs, delivering secure, scalable, and high-performance applications. ",
@@ -417,7 +417,7 @@ export const titleDescription = {
       "unlock innovation and scale your business with high performing, secure, and scalable custom applications and frameworks ",
   },
   javascript: {
-    banner: "/images/banner-image/custom-app.jpg",
+    banner: "/images/banner-image/javascript.jpg",
     title: "The Future of Web is JavaScript ",
     description: "Turn Concepts into Dynamic Digital Experiences ",
     metaTitle: "Custom App Development Tailored to Your Business Needs",
@@ -425,7 +425,7 @@ export const titleDescription = {
       "unlock innovation and scale your business with high performing, secure, and scalable custom applications and frameworks ",
   },
   typescript: {
-    banner: "/images/banner-image/custom-app.jpg",
+    banner: "/images/banner-image/ts.jpg",
     title: "Typescript Development  ",
     description:
       "TypeScript is the future of web development, offering robust features, better code maintainability, and enhanced scalability. With its ability to catch errors early and provide strong typing, TypeScript ensures your applications are reliable and efficient. Let us help you harness the power of TypeScript to create solutions that drive your business forward. ",
@@ -452,7 +452,7 @@ export const titleDescription = {
       "unlock innovation and scale your business with high performing, secure, and scalable custom applications and frameworks ",
   },
   go: {
-    banner: "/images/banner-image/custom-app.jpg",
+    banner: "/images/banner-image/go.jpg",
     title: "Go Programming Language ",
     description:
       "Go Programming Language is a powerful and efficient language that excels in building scalable, high-performance applications. At Evolzer, we leverage Go's concurrency features and simplicity to create robust solutions tailored to your needs. Whether you require microservices, web applications, or cloud-native solutions, our Go expertise ensures your projects are delivered with speed and reliability. ",
