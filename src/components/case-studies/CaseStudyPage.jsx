@@ -59,13 +59,23 @@ const settings = {
       <FaArrowRight />
     </button>
   ),
+  responsive: [
+    {
+      breakpoint: 768, // screens smaller than 768px
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
 };
+
 
 const CaseStudyCarousel = ({ bg }) => {
   return (
     <section className={`pt-20 pb-20 ${bg}`}>
       <div className="container mx-auto px-4">
-        <h2 className="mb-4 text-4xl font-bold">
+        <h2 className="mb-4 text-4xl font-bold text-center md:text-left">
           Here&apos;s Our Case <span className="text-orange-600">Studies</span>
         </h2>
         <Slider {...settings}>
@@ -73,7 +83,7 @@ const CaseStudyCarousel = ({ bg }) => {
             <div key={index} className="p-4">
               <Link href={study.link} className="no-underline">
                 <div
-                  className={`relative p-6 rounded-xl shadow-md flex justify-between items-center bg-gradient-to-r ${study.bgGradient} min-h-[300px]`}
+                  className={`relative p-6 rounded-xl shadow-md flex flex-col md:flex-row justify-between items-center bg-gradient-to-r ${study.bgGradient} min-h-[300px] gap-4`}
                 >
                   <div>
                     <h4 className="mb-3 text-xl font-semibold text-black">
@@ -88,7 +98,7 @@ const CaseStudyCarousel = ({ bg }) => {
                   <Image
                     src={study.image}
                     alt={study.title}
-                    className="max-w-[45%] rounded-lg"
+                    className="w-full md:max-w-[45%] rounded-lg"
                     width={300}
                     height={200}
                     loading="lazy"

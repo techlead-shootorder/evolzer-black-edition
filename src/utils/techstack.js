@@ -248,7 +248,7 @@ const servicesData = {
     {
       name: "mern",
       imageUrl: "/images/tech-stack/mern.webp",
-      navigate: "/web-development/mean",
+      navigate: "/web-development/mern",
       type: "stack",
     },
     {

@@ -26,7 +26,7 @@ const CaseStudyPage = ({ params }) => {
     title: "Default Title",
     banner: "/images/default-banner.jpg", // Fallback values
   };
- 
+
   const {
     heroSection: { title, description, mainImage },
     idea,
@@ -40,7 +40,10 @@ const CaseStudyPage = ({ params }) => {
 
   return (
     <>
-      <Banner pageTitle={currentTitleDesc.title} banner={currentTitleDesc.banner}/>
+      <Banner
+        pageTitle={currentTitleDesc.title}
+        banner={currentTitleDesc.banner}
+      />
       <div className="casestudyNew">
         <div className="relative  casestudyNew__hero">
           {/* Hero Section */}
@@ -48,7 +51,9 @@ const CaseStudyPage = ({ params }) => {
             <div className="flex flex-col xl:flex-row gap-10 ">
               <div className="flex-1">
                 <h1 className="caseStudyHero__title ">{title}</h1>
-                <p className="caseStudyHero__description text-white">{description}</p>
+                <p className="caseStudyHero__description text-white">
+                  {description}
+                </p>
               </div>
               <div className="caseStudyHero__gallery flex-1 flex justify-center items-center">
                 <img
@@ -76,62 +81,56 @@ const CaseStudyPage = ({ params }) => {
 
           {/* Case Study Overview */}
           {/* Case Study Overview */}
-          <div className="container caseStudyOverview">
-            <div className="grid gap-12 xl:grid-cols-12 caseStudyOverview__row">
-              {" "}
-              {/* Changed to 12-column grid */}
+          <div className="container caseStudyOverview px-4 md:p-0 ">
+            <div className="flex flex-col lg:flex-row gap-6 caseStudyOverview__row">
               {/* Overview Section */}
-              <div className="col-span-8">
+              <div className="w-full lg:w-8/12">
                 <h2 className="caseStudyOverview__subtitle subtitle text-3xl font-semibold text-gray-800 mb-4">
                   Overview
                 </h2>
                 <div
-                  className="section-title "
+                  className="section-title"
                   style={{ textAlign: "left", marginBottom: "20px" }}
                 >
-                  <h2> The Client</h2>
+                  <h2>The Client</h2>
                 </div>
                 <p className="text-white">{overview}</p>
               </div>
+
               {/* Details Section */}
-              <div className="bg-gray-50 shadow-lg rounded-lg p-8 col-span-4 space-y-2">
-                {" "}
-                {/* Reduced padding */}
-                <div className="">
-                  <span className="">Location:</span>
+              <div className="w-full lg:w-4/12 bg-gray-50 shadow-lg rounded-lg p-6 lg:p-8 space-y-2">
+                <div>
+                  <span className="font-semibold text-gray-700">Location:</span>
                   <div>{location}</div>
                 </div>
-                <div className="">
-                  <span className="">Industries:</span>
+                <div>
+                  <span className="font-semibold text-gray-700">
+                    Industries:
+                  </span>
                   <div>{industries.join(", ")}</div>
                 </div>
-                <div className="">
-                  <span className="">Services:</span>
+                <div>
+                  <span className="font-semibold text-gray-700">Services:</span>
                   <div>
-                    {services.map((service) => {
-                      return (
-                        <div href={service.link} key={service}>
-                          {service.name}
-                        </div>
-                      );
-                    })}
+                    {services.map((service) => (
+                      <div key={service}>{service.name}</div>
+                    ))}
                   </div>
                 </div>
-                <div className="">
-                  <span className="">Technologies:</span>
+                <div>
+                  <span className="font-semibold text-gray-700">
+                    Technologies:
+                  </span>
                   <div>
-                    {technologies.map((technology) => {
-                      return (
-                        <div href={technology.link} key={technology}>
-                          {technology.name}
-                        </div>
-                      );
-                    })}
+                    {technologies.map((technology) => (
+                      <div key={technology}>{technology.name}</div>
+                    ))}
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
           <div className="caseStudyPlans">
             <div className="container mx-auto px-4">
               <div className="caseStudyPlans__row flex flex-wrap">
@@ -191,7 +190,7 @@ const CaseStudyPage = ({ params }) => {
 
           {/* Challenges and Innovations */}
           {/* Full Story and Challenges and Innovations */}
-          <div className="container caseStudySolution ptb-80">
+          <div className="container caseStudySolution ptb-80  p-4 md:p-0">
             <div className="row caseStudySolution__row">
               <div className="col-lg-12">
                 <h3 className="caseStudySolution__subtitle subtitle">

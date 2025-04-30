@@ -164,10 +164,10 @@ const Banner = ({ pageTitle, banner, pagesubtitle, subservice, className }) => {
           objectFit="cover"
           priority
         />
-        <div className="overlay absolute inset-0 bg-black opacity-50"></div>
+        <div className="overlay absolute inset-0 bg-black opacity-75"></div>
         <div className="container mx-auto relative z-10 h-full flex flex-col justify-center">
           <div className="grid grid-cols-12 items-center !justify-between md:gap-24 !mx-2 md:mx-0">
-            <div className="col-span-12 lg:col-span-7 text-center h-full flex flex-col justify-end lg:text-left">
+            <div className="col-span-12 lg:col-span-7 text-center h-full flex flex-col justify-center lg:text-left">
               {subservice === "shopify" && (
                 <div className="flex items-center justify-center lg:justify-start mb-4">
                   {/* Full Stars */}
