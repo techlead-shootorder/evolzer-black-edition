@@ -31,6 +31,8 @@ export default function Home() {
     AOS.init({ duration: 1000 }); // You can customize the options here
   }, []);
 
+  // Testing
+
   return (
     <>
       {/* Suspense boundaries for critical sections */}
