@@ -19,11 +19,11 @@ const Hero = () => {
           {/* Description Text */}
           <div className="max-w-4xl mx-auto space-y-6">
             <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
-              India isn't a one-size-fits-all hiring market. Your hiring cost depends on your preferences, whether you need an engineer from a top university, a startup-ready builder, or an AI expert.
+              India isn&apos;t a one-size-fits-all hiring market. Your hiring cost depends on your preferences, whether you need an engineer from a top university, a startup-ready builder, or an AI expert.
             </p>
             
             <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
-              Instead of fixed pricing, we've created preference-based personas that reflect the most common hiring needs. Pick the persona that fits your company's requirements, and we'll match you with the right talent.
+              Instead of fixed pricing, we&apos;ve created preference-based personas that reflect the most common hiring needs. Pick the persona that fits your company&apos;s requirements, and we&apos;ll match you with the right talent.
             </p>
           </div>
         </div>
