@@ -72,9 +72,15 @@ const MegaMenu = () => {
                 >
                   <button onClick={handleShow}>Schedule a Call</button>
                 </li>
+               
                 <li className="ruby-menu-mega-shop ruby-menu-right">
                   <Link href="/contact" passHref onClick={handleMenuItemClick}>
                     Contact
+                  </Link>
+                </li>
+                 <li className="ruby-menu-mega-shop ruby-menu-right">
+                  <Link href="/offshore" passHref onClick={handleMenuItemClick}>
+                    Offshore
                   </Link>
                 </li>
                 <li className="ruby-menu-mega ruby-menu-right">
@@ -224,6 +230,7 @@ const MegaMenu = () => {
                   </div>
                   <span className="ruby-dropdown-toggle" />
                 </li>
+                
                 <li className="ruby-menu-mega-shop ruby-menu-right">
                   <Link href="/about-us" passHref onClick={handleMenuItemClick}>
                     About
