@@ -2,6 +2,9 @@
 
 import { Users, Rocket, DollarSign, Zap, MapPin, Star, Briefcase, Coins, Cpu, MapPin as LocationIcon } from 'lucide-react';
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
+
+
 
 const engineersPlans = [
     {
@@ -123,6 +126,8 @@ export default function Pricing() {
     const [activeTab, setActiveTab] = useState('engineers');
     const plans = activeTab === 'engineers' ? engineersPlans : marketersPlans;
 
+    const router = useRouter();
+
     return (
         <section className="bg-black py-16">
             <div className="!max-w-7xl mx-auto px-4">
@@ -223,7 +228,10 @@ export default function Pricing() {
                                     </div>
 
                                     {/* Button */}
-                                    <button className="w-full bg-gray-900 text-white text-sm font-semibold py-3 rounded-lg hover:shadow-lg transition-colors duration-300 mt-auto">
+                                    <button 
+                                    className="w-full bg-gray-900 text-white text-sm font-semibold py-3 rounded-lg hover:shadow-lg transition-colors duration-300 mt-auto"
+                                    onClick={()=> router.push('/contact')}
+                                    >
                                         Hire Now
                                     </button>
                                 </div>
