@@ -5,36 +5,48 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 
 const faqs = [
   {
-    question: 'Are these fixed monthly fees?',
+    question: 'Where is ShootOrder Digital Marketing Agency located?',
     answer:
-      'Yes, these are fixed monthly fees. However, the above are simply an indication of what you should expect in terms of budget based on your preference. Most of our clients want to hire the top talents of India, and these indications are based on the recent hires made via Uplers.',
+      'ShootOrder is headquartered in Hyderabad, India, and serves clients across India as well as globally.',
   },
   {
-    question: 'What exactly is included in the monthly rate?',
+    question: 'What services does ShootOrder offer?',
     answer:
-      'Your monthly rate covers the agreed talent’s services, project management support, and any included benefits or tools as specified in the contract.',
+      'We provide a full range of digital marketing services including SEO, PPC (Google Ads), Social Media Marketing, Content Marketing, Email Marketing, Marketing Automation, and Web/App Development.',
   },
   {
-    question: 'Is this a one-time fee or recurring?',
+    question: 'Does ShootOrder specialize in any particular industry?',
     answer:
-      'The monthly rate is recurring and will be billed every month during the contract period.',
+      'ShootOrder works with clients from diverse industries such as education, healthcare, real estate, e-commerce, SaaS, and startups. Our strategies are customized to suit each industry’s needs.',
   },
   {
-    question: 'What\'s included in the contract management fee?',
+    question: 'How does ShootOrder measure the success of digital campaigns?',
     answer:
-      'It includes admin, HR support, payment management, and compliance handling for the talent’s contract.',
+      'We measure success using KPIs like website traffic, leads, conversions, ROI, cost-per-acquisition, and engagement metrics. Clients receive transparent reports and live analytics dashboards.',
   },
   {
-    question: 'What’s the minimum commitment period?',
+    question: 'Can ShootOrder manage international marketing campaigns?',
     answer:
-      'Typically, the minimum engagement is 3 months, but this may vary depending on the project or role.',
+      'Yes, we have expertise in running campaigns for both Indian and global clients, managing Google, Meta, LinkedIn, and other ad platforms for international markets.',
   },
   {
-    question: 'What happens if I\'m not satisfied with the talent?',
+    question: 'What makes ShootOrder different from other digital marketing agencies?',
     answer:
-      'We offer a replacement guarantee within the contract period if you’re not satisfied with the assigned talent.',
+      'Since 2013, ShootOrder has been delivering ROI-driven strategies, backed by a skilled in-house team, transparent communication, and a strong track record of measurable results.',
+  },
+  {
+    question: 'What is the minimum engagement period with ShootOrder?',
+    answer:
+      'Typically, we recommend a minimum of 3 months for SEO and brand growth campaigns. However, shorter ad campaigns can also be executed based on client goals.',
+  },
+  {
+    question: 'Does ShootOrder provide customized digital marketing packages?',
+    answer:
+      'Yes, we design custom packages based on your business size, goals, and budget — whether it is SEO, paid advertising, or a complete digital marketing strategy.',
   },
 ];
+
+
 
 export default function FaqSection() {
   const [openIndex, setOpenIndex] = useState(null);
@@ -55,9 +67,8 @@ export default function FaqSection() {
             return (
               <div
                 key={index}
-                className={`rounded-2xl border transition-all duration-300 overflow-hidden bg-white ${
-                  isOpen ? 'border-gray-300 shadow-sm' : 'border-gray-300'
-                }`}
+                className={`rounded-2xl border transition-all duration-300 overflow-hidden bg-white ${isOpen ? 'border-gray-300 shadow-sm' : 'border-gray-300'
+                  }`}
               >
                 <button
                   onClick={() => toggle(index)}
